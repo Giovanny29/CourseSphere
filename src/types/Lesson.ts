@@ -1,9 +1,9 @@
-export interface Course {
+export interface Lesson {
   id: string;
-  name: string;
-  description?: string;
-  start_date: string;
-  end_date: string;
+  title: string;
+  status: 'draft' | 'published' | 'archived';
+  publish_date: string;
+  video_url: string;
+  course_id: string;
   creator_id: string;
-  instructors: string[];
 }
