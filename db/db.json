@@ -37,6 +37,12 @@
       "password": "pacman"
     },
     {
+      "id": "bfe9fab4-ed2c-4e37-921d-46954e28c626666666666",
+      "name": "GODaaaaaa",
+      "email": "giovannyaraujo29@gmail.com",
+      "password": "kojismo"
+    },
+    {
       "id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
       "name": "Mélody Rey",
       "email": "melody.rey@example.com",
@@ -239,6 +245,186 @@
       "instructors": [
         "a1c91c3b-ee78-435e-bc51-91d63ab39839"
       ]
+    },
+    {
+      "id": "057f2442-8430-44c9-8a40-f60cad9f5b85",
+      "name": "Curso 1",
+      "description": "Descrição do curso 1.",
+      "start_date": "2022-01-01T00:00:00",
+      "end_date": "2022-05-01T00:00:00",
+      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
+      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+    },
+    {
+      "id": "5822d3fc-a13b-4d24-871a-a3c38d3930b6",
+      "name": "Curso 2",
+      "description": "Descrição do curso 2.",
+      "start_date": "2022-01-31T00:00:00",
+      "end_date": "2022-05-31T00:00:00",
+      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
+      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+    },
+    {
+      "id": "1c0c4052-abb5-4c4a-8be3-c86f51d7b418",
+      "name": "Curso 3",
+      "description": "Descrição do curso 3.",
+      "start_date": "2022-03-02T00:00:00",
+      "end_date": "2022-06-30T00:00:00",
+      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
+      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+    },
+    {
+      "id": "68bc931a-32ef-40e5-9a12-7c0c52f4b683",
+      "name": "Curso 4",
+      "description": "Descrição do curso 4.",
+      "start_date": "2022-04-01T00:00:00",
+      "end_date": "2022-08-01T00:00:00",
+      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
+      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+    },
+    {
+      "id": "e7392e1b-60e8-4db4-bdd7-c9a1f7553bde",
+      "name": "Curso 5",
+      "description": "Descrição do curso 5.",
+      "start_date": "2022-05-01T00:00:00",
+      "end_date": "2022-09-01T00:00:00",
+      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
+      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+    },
+    {
+      "id": "5acb8a02-2787-45e7-bd91-8825096e2c21",
+      "name": "Curso 6",
+      "description": "Descrição do curso 6.",
+      "start_date": "2022-05-31T00:00:00",
+      "end_date": "2022-09-29T00:00:00",
+      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
+      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+    },
+    {
+      "id": "2e7b3cd3-3110-4be3-9b9c-97850ac020d0",
+      "name": "Curso 7",
+      "description": "Descrição do curso 7.",
+      "start_date": "2022-06-30T00:00:00",
+      "end_date": "2022-10-28T00:00:00",
+      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
+      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+    },
+    {
+      "id": "b7b671db-7ef0-4e5f-95de-21a350ef7e44",
+      "name": "Curso 8",
+      "description": "Descrição do curso 8.",
+      "start_date": "2022-07-30T00:00:00",
+      "end_date": "2022-11-27T00:00:00",
+      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
+      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+    },
+    {
+      "id": "d78f60b5-5c3e-4e8f-8d7c-44c93f9dbbdb",
+      "name": "Curso 9",
+      "description": "Descrição do curso 9.",
+      "start_date": "2022-08-29T00:00:00",
+      "end_date": "2022-12-27T00:00:00",
+      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
+      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+    },
+    {
+      "id": "774e9881-c1b6-4208-9129-f798b72b43a7",
+      "name": "Curso 10",
+      "description": "Descrição do curso 10.",
+      "start_date": "2022-09-28T00:00:00",
+      "end_date": "2023-01-26T00:00:00",
+      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
+      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+    },
+    {
+      "id": "2204c7c9-bb20-4e7b-9de9-99b446f712b0",
+      "name": "Curso 11",
+      "description": "Descrição do curso 11.",
+      "start_date": "2022-10-28T00:00:00",
+      "end_date": "2023-02-25T00:00:00",
+      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
+      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+    },
+    {
+      "id": "6f4e0201-7b30-496e-a161-99ff3f4a9d0f",
+      "name": "Curso 12",
+      "description": "Descrição do curso 12.",
+      "start_date": "2022-11-27T00:00:00",
+      "end_date": "2023-03-27T00:00:00",
+      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
+      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+    },
+    {
+      "id": "2b9a5c87-533f-4d62-8b7d-bbdf4a72889a",
+      "name": "Curso 13",
+      "description": "Descrição do curso 13.",
+      "start_date": "2022-12-27T00:00:00",
+      "end_date": "2023-04-26T00:00:00",
+      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
+      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+    },
+    {
+      "id": "d91ceef3-97aa-4e3b-b4de-2a2224b319a3",
+      "name": "Curso 14",
+      "description": "Descrição do curso 14.",
+      "start_date": "2023-01-26T00:00:00",
+      "end_date": "2023-05-26T00:00:00",
+      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
+      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+    },
+    {
+      "id": "0245222d-2b63-4d89-9e5a-f0b61cdd4770",
+      "name": "Curso 15",
+      "description": "Descrição do curso 15.",
+      "start_date": "2023-02-25T00:00:00",
+      "end_date": "2023-06-25T00:00:00",
+      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
+      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+    },
+    {
+      "id": "b5d6fc50-9946-4a35-8466-88b43e83b960",
+      "name": "Curso 16",
+      "description": "Descrição do curso 16.",
+      "start_date": "2023-03-27T00:00:00",
+      "end_date": "2023-07-26T00:00:00",
+      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
+      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+    },
+    {
+      "id": "7b42993c-3a7f-40f8-a9a2-e0d1d1efc889",
+      "name": "Curso 17",
+      "description": "Descrição do curso 17.",
+      "start_date": "2023-04-26T00:00:00",
+      "end_date": "2023-08-25T00:00:00",
+      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
+      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+    },
+    {
+      "id": "3a88f2b7-c66c-44d7-a9a5-6dd3ff57b1fc",
+      "name": "Curso 18",
+      "description": "Descrição do curso 18.",
+      "start_date": "2023-05-26T00:00:00",
+      "end_date": "2023-09-24T00:00:00",
+      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
+      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+    },
+    {
+      "id": "d4761f8d-e92f-4cc1-86f6-bd4b9bb98a30",
+      "name": "Curso 19",
+      "description": "Descrição do curso 19.",
+      "start_date": "2023-06-25T00:00:00",
+      "end_date": "2023-10-24T00:00:00",
+      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
+      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+    },
+    {
+      "id": "d2ef9b92-62f4-4d36-b5f8-c8a48cc7d4a6",
+      "name": "Curso 20",
+      "description": "Descrição do curso 20.",
+      "start_date": "2023-07-25T00:00:00",
+      "end_date": "2023-11-23T00:00:00",
+      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
+      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
     },
     {
       "id": "85d4c6e3-2b5f-4af8-a298-d9af748ac414",

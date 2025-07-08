@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { Course } from '../../types';
 import CourseList from '../../components/CourseList';
 import CreateCourseButton from '../../components/CreateCourseButton';
+import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 
 const DashboardPage: React.FC = () => {
@@ -42,47 +43,40 @@ const DashboardPage: React.FC = () => {
   }, [navigate, userId, isAuthenticated]);
 
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-tr from-gray-900 via-gray-800 to-purple-900 text-white">
-      {/* Header com logo e informações do usuário */}
-      <header className="flex items-center justify-between p-6 border-b border-gray-700">
-        <div className="flex items-center space-x-3">
-          <img
-            src="/img/sphere.png"
-            alt="Sphere Course Logo"
-            className="h-12 w-12"
-          />
-          <h1 className="text-2xl font-bold">SphereCourse</h1>
-        </div>
+    <div className="min-h-screen flex flex-col bg-gradient-to-tr from-purple-700 via-indigo-800 to-blue-900 text-white">
+      <Header />
 
-        <div className="flex items-center space-x-3">
-          <img
-            src="/img/generic.png"
-            alt="User profile"
-            className="h-10 w-10 rounded-full object-cover"
-          />
-          <div>
-            <p className="font-semibold">{userEmail || 'Usuário'}</p>
-            <p className="text-sm text-gray-300 truncate max-w-[200px]">
-              {userId}
-            </p>
+      <main className="flex-grow p-8 max-w-7xl mx-auto w-full">
+        {/* Top bar com título e perfil */}
+        <div className="flex justify-between items-center mb-8">
+          <h1 className="text-4xl font-extrabold select-none">Meus Cursos</h1>
+
+          <div className="flex items-center space-x-4 bg-indigo-900 bg-opacity-30 rounded-lg p-3">
+            <img
+              src="/img/profile-generic.png"
+              alt="Perfil"
+              className="w-12 h-12 rounded-full border-2 border-white"
+            />
+            <div>
+              <p className="font-semibold">{userEmail || 'Usuário'}</p>
+              <p className="text-sm text-indigo-200 select-text">{userId}</p>
+            </div>
           </div>
         </div>
-      </header>
 
-      {/* Conteúdo principal */}
-      <main className="flex-grow p-8 max-w-7xl mx-auto w-full">
-        <div className="flex justify-between items-center mb-8">
-          <h2 className="text-3xl font-bold">Meus Cursos</h2>
-          <CreateCourseButton />
+        <CreateCourseButton />
+
+        <div className="mt-8">
+          {loading ? (
+            <p className="text-center text-indigo-200">Carregando cursos...</p>
+          ) : courses.length === 0 ? (
+            <p className="text-center text-indigo-200">
+              Nenhum curso encontrado.
+            </p>
+          ) : (
+            <CourseList courses={courses} />
+          )}
         </div>
-
-        {loading ? (
-          <p className="text-center text-gray-300">Carregando cursos...</p>
-        ) : courses.length === 0 ? (
-          <p className="text-center text-gray-300">Nenhum curso encontrado.</p>
-        ) : (
-          <CourseList courses={courses} />
-        )}
       </main>
 
       <Footer />
