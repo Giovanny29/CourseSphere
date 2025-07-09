@@ -1,24 +1,24 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-interface LoginFormProps {
-  onLogin: (email: string, password: string) => void | Promise<void>;
+interface RegisterFormProps {
+  onRegister: (
+    name: string,
+    email: string,
+    password: string,
+  ) => void | Promise<void>;
+  loading: boolean;
 }
 
-const LoginForm: React.FC<LoginFormProps> = ({ onLogin }) => {
+const RegisterForm: React.FC<RegisterFormProps> = ({ onRegister, loading }) => {
+  const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
-  const [loading, setLoading] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setLoading(true);
-    try {
-      await onLogin(email, password);
-    } finally {
-      setLoading(false);
-    }
+    await onRegister(name, email, password);
   };
 
   return (
@@ -26,13 +26,32 @@ const LoginForm: React.FC<LoginFormProps> = ({ onLogin }) => {
       onSubmit={handleSubmit}
       className="bg-gray-800 p-8 rounded-xl shadow-lg w-full max-w-md mx-auto flex flex-col items-center"
     >
-      {/* Imagem decorativa */}
       <img src="/img/sphere.png" alt="Sphere" className="w-20 h-20 mb-6" />
 
       <h2 className="text-3xl font-bold text-white mb-6 text-center">
-        Bem-vindo de volta
+        Crie sua conta
       </h2>
 
+      {/* Nome */}
+      <div className="w-full mb-4">
+        <label
+          htmlFor="name"
+          className="block text-white text-sm font-semibold mb-2"
+        >
+          Nome
+        </label>
+        <input
+          type="text"
+          id="name"
+          placeholder="Seu nome completo"
+          className="bg-gray-700 text-white placeholder-gray-400 border border-gray-600 rounded w-full py-2 px-3 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+          required
+        />
+      </div>
+
+      {/* Email */}
       <div className="w-full mb-4">
         <label
           htmlFor="email"
@@ -51,6 +70,7 @@ const LoginForm: React.FC<LoginFormProps> = ({ onLogin }) => {
         />
       </div>
 
+      {/* Senha com botão mostrar/ocultar */}
       <div className="w-full mb-6 relative">
         <label
           htmlFor="password"
@@ -61,10 +81,11 @@ const LoginForm: React.FC<LoginFormProps> = ({ onLogin }) => {
         <input
           type={showPassword ? 'text' : 'password'}
           id="password"
-          placeholder="Sua senha"
+          placeholder="Mínimo 6 caracteres"
           className="bg-gray-700 text-white placeholder-gray-400 border border-gray-600 rounded w-full py-2 px-3 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 pr-10"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
+          minLength={6}
           required
         />
         <button
@@ -74,7 +95,6 @@ const LoginForm: React.FC<LoginFormProps> = ({ onLogin }) => {
           aria-label={showPassword ? 'Ocultar senha' : 'Mostrar senha'}
         >
           {showPassword ? (
-            // Ícone olho aberto
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"
@@ -96,7 +116,6 @@ const LoginForm: React.FC<LoginFormProps> = ({ onLogin }) => {
               />
             </svg>
           ) : (
-            // Ícone olho fechado
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"
@@ -123,21 +142,20 @@ const LoginForm: React.FC<LoginFormProps> = ({ onLogin }) => {
           loading ? 'opacity-50 cursor-not-allowed' : ''
         }`}
       >
-        {loading ? 'Entrando...' : 'Entrar'}
+        {loading ? 'Registrando...' : 'Registrar'}
       </button>
 
-      {/* Link para registro */}
       <p className="mt-4 text-sm text-gray-300">
-        Não tem conta?{' '}
+        Já tem uma conta?{' '}
         <Link
-          to="/register"
+          to="/login"
           className="text-blue-400 hover:text-blue-600 font-semibold"
         >
-          Registrar
+          Entrar
         </Link>
       </p>
     </form>
   );
 };
 
-export default LoginForm;
+export default RegisterForm;
