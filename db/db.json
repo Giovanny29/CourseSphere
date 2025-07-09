@@ -179,6 +179,18 @@
       "name": "Vitálio de Souza",
       "email": "vitalio.desouza@example.com",
       "password": "altoids"
+    },
+    {
+      "id": "0b1b8481-be4c-4970-b298-cfa5389c67b4",
+      "name": "Lorenzo",
+      "email": "lorenzo29@gmail.com",
+      "password": "lorenzo"
+    },
+    {
+      "id": "cc108551-4aab-409c-8067-ffa271ab08f0",
+      "name": "Giovanny Lira de Araújo",
+      "email": "giovannyaraujo29@gmail.com",
+      "password": "kojismo"
     }
   ],
   "courses": [
@@ -189,7 +201,9 @@
       "start_date": "2022-05-17T11:46:38.530Z",
       "end_date": "2023-12-28T17:04:43.758Z",
       "creator_id": "c1a4df5c-7647-4485-9fec-ae34568b25ed",
-      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+      "instructors": [
+        "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"
+      ]
     },
     {
       "id": "92ceb232-b643-4819-961c-110cb1994dc5",
@@ -222,7 +236,9 @@
       "start_date": "2020-04-24T02:20:50.321Z",
       "end_date": "2022-07-17T03:37:29.383Z",
       "creator_id": "d03779b9-508e-4ae8-a690-4b851a381515",
-      "instructors": ["a1c91c3b-ee78-435e-bc51-91d63ab39839"]
+      "instructors": [
+        "a1c91c3b-ee78-435e-bc51-91d63ab39839"
+      ]
     },
     {
       "id": "85d4c6e3-2b5f-4af8-a298-d9af748ac414",
