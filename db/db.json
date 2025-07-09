@@ -1,898 +1,386 @@
 {
   "users": [
     {
-      "id": "e7f7a257-f90a-470e-9531-0b8204f5ac5c",
-      "name": "Ted King",
-      "email": "ted.king@example.com",
-      "password": "free"
-    },
-    {
-      "id": "369418f3-f9e9-41cf-b65c-5839fb2b6932",
-      "name": "Owen Francois",
-      "email": "owen.francois@example.com",
-      "password": "zippy"
-    },
-    {
-      "id": "8f1f56fd-dc72-45fa-b795-e292a7138d69",
-      "name": "Justin Slawa",
-      "email": "justin.slawa@example.com",
-      "password": "divers"
-    },
-    {
-      "id": "c1a4df5c-7647-4485-9fec-ae34568b25ed",
-      "name": "Melinda Frazier",
-      "email": "melinda.frazier@example.com",
-      "password": "denise"
-    },
-    {
-      "id": "bfe9fab4-ed2c-4e37-921d-46954e28c626",
-      "name": "Pavle Vlahović",
-      "email": "pavle.vlahovic@example.com",
-      "password": "romeo"
-    },
-    {
-      "id": "b74f7221-831f-4b20-abd6-9e64f3463a7a",
-      "name": "Peder Fløysvik",
-      "email": "peder.floysvik@example.com",
-      "password": "pacman"
-    },
-    {
-      "id": "bfe9fab4-ed2c-4e37-921d-46954e28c626666666666",
-      "name": "GODaaaaaa",
-      "email": "giovannyaraujo29@gmail.com",
-      "password": "kojismo"
-    },
-    {
-      "id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
-      "name": "Mélody Rey",
-      "email": "melody.rey@example.com",
-      "password": "rockie"
-    },
-    {
-      "id": "89b2b34c-b1d8-4c7f-93b9-caaa3ada6fcf",
-      "name": "Matthew Edwards",
-      "email": "matthew.edwards@example.com",
-      "password": "frenchy"
-    },
-    {
-      "id": "114d03ab-dd68-4dd6-84ab-46c350bd07cf",
-      "name": "Varo da Cruz",
-      "email": "varo.dacruz@example.com",
-      "password": "clemson"
-    },
-    {
-      "id": "e7976ba4-f540-45e8-a3e1-f65a3802fef8",
-      "name": "Allie Gonzales",
-      "email": "allie.gonzales@example.com",
-      "password": "snapple"
-    },
-    {
-      "id": "b7d9cff7-bac1-45f9-a4df-fd453192ca0a",
-      "name": "Sanja Orlić",
-      "email": "sanja.orlic@example.com",
-      "password": "snoopy1"
-    },
-    {
-      "id": "249efb98-41bf-4862-86e9-416b1ff40c9d",
-      "name": "Iepistima Butenko",
-      "email": "iepistima.butenko@example.com",
-      "password": "marines"
-    },
-    {
-      "id": "a1c91c3b-ee78-435e-bc51-91d63ab39839",
-      "name": "Lejla Dumont",
-      "email": "lejla.dumont@example.com",
-      "password": "passmast"
-    },
-    {
-      "id": "d03779b9-508e-4ae8-a690-4b851a381515",
-      "name": "Hitesh Prabhakaran",
-      "email": "hitesh.prabhakaran@example.com",
-      "password": "scooter1"
-    },
-    {
-      "id": "a6bf6ed3-e61e-4887-bab9-0ffbb20982f4",
-      "name": "Victoria Brown",
-      "email": "victoria.brown@example.com",
-      "password": "nikki"
-    },
-    {
-      "id": "187befb2-2ca7-4c7b-a788-d2d447c70e4c",
-      "name": "Gumersindo Aragão",
-      "email": "gumersindo.aragao@example.com",
-      "password": "hungry"
-    },
-    {
-      "id": "63b189f1-a29f-4527-8f04-4c97a36532bc",
-      "name": "Katja Hilbert",
-      "email": "katja.hilbert@example.com",
-      "password": "seviyi"
-    },
-    {
-      "id": "d7459e86-3d55-40f4-b08b-107098363492",
-      "name": "امیر جعفری",
-      "email": "myr.jaafry@example.com",
-      "password": "hewitt"
-    },
-    {
-      "id": "71d57496-cefa-4054-91b5-58edffe0d6c6",
-      "name": "Rahul Shetty",
-      "email": "rahul.shetty@example.com",
-      "password": "thong"
-    },
-    {
-      "id": "8e7c0f87-53e8-4542-be92-0c4b876d5cb4",
-      "name": "Savannah Cooper",
-      "email": "savannah.cooper@example.com",
-      "password": "alexia"
-    },
-    {
-      "id": "8369adc3-bdc5-4ce5-8c55-15e2230f0d29",
-      "name": "Lotta Joki",
-      "email": "lotta.joki@example.com",
-      "password": "finish"
-    },
-    {
-      "id": "fddca7f2-9ed8-4ebb-b6df-860dff2b522d",
-      "name": "Kurt Warren",
-      "email": "kurt.warren@example.com",
-      "password": "wednesda"
-    },
-    {
-      "id": "8207a831-4f6e-4081-aa52-17a01aa9d13c",
-      "name": "João Martin",
-      "email": "joao.martin@example.com",
-      "password": "bergkamp"
-    },
-    {
-      "id": "64826776-493c-4ea4-93d6-00b69bb2608b",
-      "name": "Anđela Žikić",
-      "email": "andela.zikic@example.com",
-      "password": "brando"
-    },
-    {
-      "id": "190df0f3-0ea8-46ff-aac3-0b02cb100309",
-      "name": "Akshay Vernekar",
-      "email": "akshay.vernekar@example.com",
-      "password": "coventry"
-    },
-    {
-      "id": "40db99fe-0167-4ce2-af5f-e87851f4d802",
-      "name": "Harold Lawson",
-      "email": "harold.lawson@example.com",
-      "password": "kokomo"
-    },
-    {
-      "id": "29376244-7fe1-41b4-80fb-82f10279e7f2",
-      "name": "Diana Armstrong",
-      "email": "diana.armstrong@example.com",
-      "password": "custom"
-    },
-    {
-      "id": "0f55895b-23eb-4776-a8f0-9c36dcf59d1c",
-      "name": "رها حسینی",
-      "email": "rh.hsyny@example.com",
-      "password": "maryann"
-    },
-    {
-      "id": "23f8e368-e05c-4117-940d-76c9a51d9043",
-      "name": "Sofija Trajković",
-      "email": "sofija.trajkovic@example.com",
-      "password": "salesman"
-    },
-    {
-      "id": "4537aefb-6679-4f41-89b6-1b0e8d0bc53a",
-      "name": "Vitálio de Souza",
-      "email": "vitalio.desouza@example.com",
-      "password": "altoids"
-    },
-    {
-      "id": "0b1b8481-be4c-4970-b298-cfa5389c67b4",
-      "name": "Lorenzo",
-      "email": "lorenzo29@gmail.com",
-      "password": "lorenzo"
-    },
-    {
       "id": "cc108551-4aab-409c-8067-ffa271ab08f0",
       "name": "Giovanny Lira de Araújo",
       "email": "giovannyaraujo29@gmail.com",
       "password": "kojismo"
+    },
+    {
+      "id": "a1f7d3b4-98c2-4e1d-8e4b-7d5b9f23c3a9",
+      "name": "Marina Alves Silva",
+      "email": "marina.alves@example.com",
+      "password": "marina1"
+    },
+    {
+      "id": "d2e9b8a1-4f3c-4d0f-9a6d-1c9e4a7f7d22",
+      "name": "Lucas Pereira Souza",
+      "email": "lucas.pereira@example.com",
+      "password": "lucasp6"
+    },
+    {
+      "id": "e3b7a6f2-1d5e-4b8f-9f0a-0b7c6d2e4f33",
+      "name": "Ana Carolina Mendes",
+      "email": "ana.mendes@example.com",
+      "password": "anacm123"
+    },
+    {
+      "id": "f48ac012-5e39-4b9d-a17e-2c9e4d5b0f44",
+      "name": "Rafael Costa Lima",
+      "email": "rafael.costa@example.com",
+      "password": "rafael6"
+    },
+    {
+      "id": "b5c3d481-7f2a-4621-8d4b-3a1e6f9c0a55",
+      "name": "Beatriz Nunes Rocha",
+      "email": "beatriz.nunes@example.com",
+      "password": "beatriz7"
+    },
+    {
+      "id": "c6d4e592-8f3b-5732-9e5c-4b2f7a0d1b66",
+      "name": "Pedro Henrique Santos",
+      "email": "pedro.santos@example.com",
+      "password": "pedro89"
     }
   ],
   "courses": [
     {
-      "id": "40a29157-71e3-4ace-85f5-6ac6813380af",
-      "name": "Course 1",
-      "description": "This is the description for course 1.",
-      "start_date": "2022-05-17T11:46:38.530Z",
-      "end_date": "2023-12-28T17:04:43.758Z",
-      "creator_id": "c1a4df5c-7647-4485-9fec-ae34568b25ed",
+      "id": "e1a7c89f-b9f9-46e1-943e-2e001a23fc01",
+      "name": "Introdução à Lógica Computacional",
+      "description": "Fundamentos de lógica aplicada à ciência da computação.",
+      "start_date": "2025-08-01T08:00:00.000Z",
+      "end_date": "2025-12-01T08:00:00.000Z",
+      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0",
       "instructors": [
-        "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"
+        "cc108551-4aab-409c-8067-ffa271ab08f0",
+        "0e3a5190-23ff-4cfa-82c4-6d2f6616e9e9"
       ]
     },
     {
-      "id": "92ceb232-b643-4819-961c-110cb1994dc5",
-      "name": "Course 2",
-      "description": "This is the description for course 2.",
-      "start_date": "2021-01-19T05:40:30.885Z",
-      "end_date": "2023-12-17T21:24:28.613Z",
-      "creator_id": "b74f7221-831f-4b20-abd6-9e64f3463a7a",
+      "id": "4dd1669b-2c21-432f-aef2-353fa2f9a904",
+      "name": "Desenvolvimento Web com React",
+      "description": "Curso completo de React com projetos práticos.",
+      "start_date": "2025-07-15T08:00:00.000Z",
+      "end_date": "2025-11-15T08:00:00.000Z",
+      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0",
       "instructors": [
-        "89b2b34c-b1d8-4c7f-93b9-caaa3ada6fcf",
-        "8f1f56fd-dc72-45fa-b795-e292a7138d69"
+        "cc108551-4aab-409c-8067-ffa271ab08f0",
+        "1c423c1f-25c4-4456-9604-6b4ef82f3bc1"
       ]
     },
     {
-      "id": "910b0d6e-a509-44e3-bc91-c81759352f01",
-      "name": "Course 3",
-      "description": "This is the description for course 3.",
-      "start_date": "2022-02-11T06:18:01.529Z",
-      "end_date": "2023-06-11T08:07:11.027Z",
-      "creator_id": "b74f7221-831f-4b20-abd6-9e64f3463a7a",
+      "id": "db7f6e24-f4f6-4a99-a7a4-e3f50c20f211",
+      "name": "Algoritmos Avançados",
+      "description": "Estudo detalhado de algoritmos e estruturas de dados.",
+      "start_date": "2025-08-05T08:00:00.000Z",
+      "end_date": "2025-12-10T08:00:00.000Z",
+      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0",
       "instructors": [
-        "8f1f56fd-dc72-45fa-b795-e292a7138d69",
-        "c1a4df5c-7647-4485-9fec-ae34568b25ed"
+        "cc108551-4aab-409c-8067-ffa271ab08f0",
+        "4e6c6d70-0d94-4070-9851-1c2b92c3d8e3"
       ]
     },
     {
-      "id": "ebeac5d1-af44-4e81-ae98-2f51a54cdf74",
-      "name": "Course 1",
-      "description": "This is the description for course 1.",
-      "start_date": "2020-04-24T02:20:50.321Z",
-      "end_date": "2022-07-17T03:37:29.383Z",
-      "creator_id": "d03779b9-508e-4ae8-a690-4b851a381515",
+      "id": "9cc3fbb0-88ee-4be3-baf6-3d7037b08a0e",
+      "name": "Fundamentos de Redes de Computadores",
+      "description": "Conceitos básicos de redes e protocolos.",
+      "start_date": "2025-09-01T08:00:00.000Z",
+      "end_date": "2026-01-15T08:00:00.000Z",
+      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0",
+      "instructors": ["cc108551-4aab-409c-8067-ffa271ab08f0"]
+    },
+    {
+      "id": "17691ee6-df19-4b3c-87ff-8eb166231a19",
+      "name": "Curso de Machine Learning com Python",
+      "description": "Aprenda ML com scikit-learn, pandas e matplotlib.",
+      "start_date": "2025-07-20T08:00:00.000Z",
+      "end_date": "2025-10-20T08:00:00.000Z",
+      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0",
       "instructors": [
-        "a1c91c3b-ee78-435e-bc51-91d63ab39839"
+        "cc108551-4aab-409c-8067-ffa271ab08f0",
+        "8a75a82f-3a3a-40ce-b3a2-04f2a3f4ffed"
       ]
     },
     {
-      "id": "057f2442-8430-44c9-8a40-f60cad9f5b85",
-      "name": "Curso 1",
-      "description": "Descrição do curso 1.",
-      "start_date": "2022-01-01T00:00:00",
-      "end_date": "2022-05-01T00:00:00",
-      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
-      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+      "id": "c1",
+      "name": "Introdução ao React",
+      "description": "Aprenda os fundamentos do React e como construir interfaces modernas.",
+      "start_date": "2025-08-01",
+      "end_date": "2025-10-01",
+      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0",
+      "instructors": ["cc108551-4aab-409c-8067-ffa271ab08f0"]
     },
     {
-      "id": "5822d3fc-a13b-4d24-871a-a3c38d3930b6",
-      "name": "Curso 2",
-      "description": "Descrição do curso 2.",
-      "start_date": "2022-01-31T00:00:00",
-      "end_date": "2022-05-31T00:00:00",
-      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
-      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+      "id": "c2",
+      "name": "Python para Iniciantes",
+      "description": "Domine a sintaxe básica e lógica de programação com Python.",
+      "start_date": "2025-08-10",
+      "end_date": "2025-09-20",
+      "creator_id": "d1",
+      "instructors": ["d1", "cc108551-4aab-409c-8067-ffa271ab08f0"]
     },
     {
-      "id": "1c0c4052-abb5-4c4a-8be3-c86f51d7b418",
-      "name": "Curso 3",
-      "description": "Descrição do curso 3.",
-      "start_date": "2022-03-02T00:00:00",
-      "end_date": "2022-06-30T00:00:00",
-      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
-      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+      "id": "c3",
+      "name": "Banco de Dados com PostgreSQL",
+      "description": "Aprenda SQL, modelagem e consultas avançadas com PostgreSQL.",
+      "start_date": "2025-07-15",
+      "end_date": "2025-09-15",
+      "creator_id": "d2",
+      "instructors": ["d2", "cc108551-4aab-409c-8067-ffa271ab08f0"]
     },
     {
-      "id": "68bc931a-32ef-40e5-9a12-7c0c52f4b683",
-      "name": "Curso 4",
-      "description": "Descrição do curso 4.",
-      "start_date": "2022-04-01T00:00:00",
-      "end_date": "2022-08-01T00:00:00",
-      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
-      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+      "id": "c4",
+      "name": "Desenvolvimento Web com Django",
+      "description": "Crie aplicações web robustas usando Django e Python.",
+      "start_date": "2025-08-01",
+      "end_date": "2025-10-15",
+      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0",
+      "instructors": ["cc108551-4aab-409c-8067-ffa271ab08f0"]
     },
     {
-      "id": "e7392e1b-60e8-4db4-bdd7-c9a1f7553bde",
-      "name": "Curso 5",
-      "description": "Descrição do curso 5.",
-      "start_date": "2022-05-01T00:00:00",
-      "end_date": "2022-09-01T00:00:00",
-      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
-      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+      "id": "c5",
+      "name": "CSS Moderno com Tailwind",
+      "description": "Estilize interfaces de forma rápida e elegante com TailwindCSS.",
+      "start_date": "2025-08-05",
+      "end_date": "2025-09-30",
+      "creator_id": "d3",
+      "instructors": ["d3", "cc108551-4aab-409c-8067-ffa271ab08f0"]
     },
     {
-      "id": "5acb8a02-2787-45e7-bd91-8825096e2c21",
-      "name": "Curso 6",
-      "description": "Descrição do curso 6.",
-      "start_date": "2022-05-31T00:00:00",
-      "end_date": "2022-09-29T00:00:00",
-      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
-      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+      "id": "c6",
+      "name": "Estruturas de Dados em C++",
+      "description": "Implemente listas, filas, árvores e grafos com eficiência.",
+      "start_date": "2025-09-01",
+      "end_date": "2025-11-01",
+      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0",
+      "instructors": ["cc108551-4aab-409c-8067-ffa271ab08f0"]
     },
     {
-      "id": "2e7b3cd3-3110-4be3-9b9c-97850ac020d0",
-      "name": "Curso 7",
-      "description": "Descrição do curso 7.",
-      "start_date": "2022-06-30T00:00:00",
-      "end_date": "2022-10-28T00:00:00",
-      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
-      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+      "id": "c7",
+      "name": "Git e GitHub: Controle de Versão",
+      "description": "Domine o versionamento de código com Git e colaboração com GitHub.",
+      "start_date": "2025-07-25",
+      "end_date": "2025-09-05",
+      "creator_id": "d4",
+      "instructors": ["d4", "cc108551-4aab-409c-8067-ffa271ab08f0"]
     },
     {
-      "id": "b7b671db-7ef0-4e5f-95de-21a350ef7e44",
-      "name": "Curso 8",
-      "description": "Descrição do curso 8.",
-      "start_date": "2022-07-30T00:00:00",
-      "end_date": "2022-11-27T00:00:00",
-      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
-      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+      "id": "c8",
+      "name": "Next.js para Aplicações Modernas",
+      "description": "Use SSR, SSG e rotas avançadas com Next.js.",
+      "start_date": "2025-09-10",
+      "end_date": "2025-11-10",
+      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0",
+      "instructors": ["cc108551-4aab-409c-8067-ffa271ab08f0"]
     },
     {
-      "id": "d78f60b5-5c3e-4e8f-8d7c-44c93f9dbbdb",
-      "name": "Curso 9",
-      "description": "Descrição do curso 9.",
-      "start_date": "2022-08-29T00:00:00",
-      "end_date": "2022-12-27T00:00:00",
-      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
-      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+      "id": "c9",
+      "name": "Machine Learning com scikit-learn",
+      "description": "Construa modelos de ML supervisionados e não-supervisionados.",
+      "start_date": "2025-10-01",
+      "end_date": "2025-12-01",
+      "creator_id": "d5",
+      "instructors": ["d5", "cc108551-4aab-409c-8067-ffa271ab08f0"]
     },
     {
-      "id": "774e9881-c1b6-4208-9129-f798b72b43a7",
-      "name": "Curso 10",
-      "description": "Descrição do curso 10.",
-      "start_date": "2022-09-28T00:00:00",
-      "end_date": "2023-01-26T00:00:00",
-      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
-      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+      "id": "c10",
+      "name": "Redes de Computadores",
+      "description": "Aprenda os fundamentos de redes, protocolos e arquitetura OSI.",
+      "start_date": "2025-09-05",
+      "end_date": "2025-11-05",
+      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0",
+      "instructors": ["cc108551-4aab-409c-8067-ffa271ab08f0"]
     },
     {
-      "id": "2204c7c9-bb20-4e7b-9de9-99b446f712b0",
-      "name": "Curso 11",
-      "description": "Descrição do curso 11.",
-      "start_date": "2022-10-28T00:00:00",
-      "end_date": "2023-02-25T00:00:00",
-      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
-      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+      "id": "c11",
+      "name": "JavaScript Avançado",
+      "description": "Domine closures, protótipos e manipulação de DOM como um profissional.",
+      "start_date": "2025-08-20",
+      "end_date": "2025-10-20",
+      "creator_id": "d6",
+      "instructors": ["d6", "cc108551-4aab-409c-8067-ffa271ab08f0"]
     },
     {
-      "id": "6f4e0201-7b30-496e-a161-99ff3f4a9d0f",
-      "name": "Curso 12",
-      "description": "Descrição do curso 12.",
-      "start_date": "2022-11-27T00:00:00",
-      "end_date": "2023-03-27T00:00:00",
-      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
-      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+      "id": "c12",
+      "name": "Design Responsivo com Flexbox e Grid",
+      "description": "Crie layouts fluidos e adaptáveis para qualquer dispositivo.",
+      "start_date": "2025-07-15",
+      "end_date": "2025-08-30",
+      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0",
+      "instructors": ["cc108551-4aab-409c-8067-ffa271ab08f0"]
     },
     {
-      "id": "2b9a5c87-533f-4d62-8b7d-bbdf4a72889a",
-      "name": "Curso 13",
-      "description": "Descrição do curso 13.",
-      "start_date": "2022-12-27T00:00:00",
-      "end_date": "2023-04-26T00:00:00",
-      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
-      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+      "id": "c13",
+      "name": "Fundamentos de Engenharia de Software",
+      "description": "Conheça o ciclo de vida do software, requisitos e testes.",
+      "start_date": "2025-09-01",
+      "end_date": "2025-10-30",
+      "creator_id": "d3",
+      "instructors": ["d3", "cc108551-4aab-409c-8067-ffa271ab08f0"]
     },
     {
-      "id": "d91ceef3-97aa-4e3b-b4de-2a2224b319a3",
-      "name": "Curso 14",
-      "description": "Descrição do curso 14.",
-      "start_date": "2023-01-26T00:00:00",
-      "end_date": "2023-05-26T00:00:00",
-      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
-      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
+      "id": "c14",
+      "name": "Programação Orientada a Objetos em Java",
+      "description": "Aprofunde-se em herança, polimorfismo e encapsulamento.",
+      "start_date": "2025-10-01",
+      "end_date": "2025-12-01",
+      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0",
+      "instructors": ["cc108551-4aab-409c-8067-ffa271ab08f0"]
     },
     {
-      "id": "0245222d-2b63-4d89-9e5a-f0b61cdd4770",
-      "name": "Curso 15",
-      "description": "Descrição do curso 15.",
-      "start_date": "2023-02-25T00:00:00",
-      "end_date": "2023-06-25T00:00:00",
-      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
-      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
-    },
-    {
-      "id": "b5d6fc50-9946-4a35-8466-88b43e83b960",
-      "name": "Curso 16",
-      "description": "Descrição do curso 16.",
-      "start_date": "2023-03-27T00:00:00",
-      "end_date": "2023-07-26T00:00:00",
-      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
-      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
-    },
-    {
-      "id": "7b42993c-3a7f-40f8-a9a2-e0d1d1efc889",
-      "name": "Curso 17",
-      "description": "Descrição do curso 17.",
-      "start_date": "2023-04-26T00:00:00",
-      "end_date": "2023-08-25T00:00:00",
-      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
-      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
-    },
-    {
-      "id": "3a88f2b7-c66c-44d7-a9a5-6dd3ff57b1fc",
-      "name": "Curso 18",
-      "description": "Descrição do curso 18.",
-      "start_date": "2023-05-26T00:00:00",
-      "end_date": "2023-09-24T00:00:00",
-      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
-      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
-    },
-    {
-      "id": "d4761f8d-e92f-4cc1-86f6-bd4b9bb98a30",
-      "name": "Curso 19",
-      "description": "Descrição do curso 19.",
-      "start_date": "2023-06-25T00:00:00",
-      "end_date": "2023-10-24T00:00:00",
-      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
-      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
-    },
-    {
-      "id": "d2ef9b92-62f4-4d36-b5f8-c8a48cc7d4a6",
-      "name": "Curso 20",
-      "description": "Descrição do curso 20.",
-      "start_date": "2023-07-25T00:00:00",
-      "end_date": "2023-11-23T00:00:00",
-      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e",
-      "instructors": ["d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"]
-    },
-    {
-      "id": "85d4c6e3-2b5f-4af8-a298-d9af748ac414",
-      "name": "Course 2",
-      "description": "This is the description for course 2.",
-      "start_date": "2021-07-16T19:38:40.063Z",
-      "end_date": "2023-05-11T12:00:28.242Z",
-      "creator_id": "8e7c0f87-53e8-4542-be92-0c4b876d5cb4",
-      "instructors": [
-        "71d57496-cefa-4054-91b5-58edffe0d6c6",
-        "187befb2-2ca7-4c7b-a788-d2d447c70e4c"
-      ]
-    },
-    {
-      "id": "a86bf53a-4e4e-4eb9-885e-40d0114db8f9",
-      "name": "Course 3",
-      "description": "This is the description for course 3.",
-      "start_date": "2020-07-02T12:55:45.110Z",
-      "end_date": "2021-07-22T04:29:21.331Z",
-      "creator_id": "b7d9cff7-bac1-45f9-a4df-fd453192ca0a",
-      "instructors": [
-        "8e7c0f87-53e8-4542-be92-0c4b876d5cb4",
-        "d03779b9-508e-4ae8-a690-4b851a381515",
-        "63b189f1-a29f-4527-8f04-4c97a36532bc"
-      ]
-    },
-    {
-      "id": "a0ce3b4b-86ec-4fdd-b1c4-1851c9f08fea",
-      "name": "Course 1",
-      "description": "This is the description for course 1.",
-      "start_date": "2023-07-05T01:51:16.862Z",
-      "end_date": "2025-07-22T01:15:48.670Z",
-      "creator_id": "4537aefb-6679-4f41-89b6-1b0e8d0bc53a",
-      "instructors": [
-        "fddca7f2-9ed8-4ebb-b6df-860dff2b522d",
-        "0f55895b-23eb-4776-a8f0-9c36dcf59d1c"
-      ]
-    },
-    {
-      "id": "9f3b7eb1-4acf-4f28-8143-5a84c09be264",
-      "name": "Course 2",
-      "description": "This is the description for course 2.",
-      "start_date": "2021-06-12T23:37:09.579Z",
-      "end_date": "2025-07-22T19:43:03.968Z",
-      "creator_id": "64826776-493c-4ea4-93d6-00b69bb2608b",
-      "instructors": [
-        "8207a831-4f6e-4081-aa52-17a01aa9d13c",
-        "8369adc3-bdc5-4ce5-8c55-15e2230f0d29"
-      ]
-    },
-    {
-      "id": "a397636c-90c8-4a7e-af37-129076e3da9f",
-      "name": "Course 3",
-      "description": "This is the description for course 3.",
-      "start_date": "2022-03-14T00:00:13.420Z",
-      "end_date": "2023-07-21T23:35:28.116Z",
-      "creator_id": "40db99fe-0167-4ce2-af5f-e87851f4d802",
-      "instructors": [
-        "8207a831-4f6e-4081-aa52-17a01aa9d13c",
-        "29376244-7fe1-41b4-80fb-82f10279e7f2"
-      ]
+      "id": "c15",
+      "name": "APIs REST com Node.js e Express",
+      "description": "Implemente e consuma APIs REST com boas práticas de backend.",
+      "start_date": "2025-08-10",
+      "end_date": "2025-10-10",
+      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0",
+      "instructors": ["cc108551-4aab-409c-8067-ffa271ab08f0"]
     }
   ],
   "lessons": [
     {
-      "id": "94d6fd61-fb4e-4c08-abf0-1909c737c156",
-      "title": "Lesson 1",
+      "id": "l1",
+      "title": "Introdução ao React e JSX",
       "status": "published",
-      "publish_date": "2023-01-21T20:09:03.211Z",
-      "video_url": "https://videos.example.com/video1.mp4",
-      "course_id": "40a29157-71e3-4ace-85f5-6ac6813380af",
-      "creator_id": "89b2b34c-b1d8-4c7f-93b9-caaa3ada6fcf"
+      "publish_date": "2025-08-10",
+      "video_url": "https://youtu.be/react001",
+      "course_id": "c1",
+      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0"
     },
     {
-      "id": "e0dd801d-dc2c-4a4a-a8a2-3c8118768929",
-      "title": "Lesson 2",
-      "status": "archived",
-      "publish_date": "2023-06-16T16:14:44.469Z",
-      "video_url": "https://videos.example.com/video2.mp4",
-      "course_id": "40a29157-71e3-4ace-85f5-6ac6813380af",
-      "creator_id": "114d03ab-dd68-4dd6-84ab-46c350bd07cf"
-    },
-    {
-      "id": "4700b5b9-c935-4e57-a22c-bf009d49e2b1",
-      "title": "Lesson 3",
+      "id": "l2",
+      "title": "Componentes e Props",
       "status": "draft",
-      "publish_date": "2023-06-26T08:16:15.155Z",
-      "video_url": "https://videos.example.com/video3.mp4",
-      "course_id": "40a29157-71e3-4ace-85f5-6ac6813380af",
-      "creator_id": "b74f7221-831f-4b20-abd6-9e64f3463a7a"
+      "publish_date": "2025-08-15",
+      "video_url": "https://youtu.be/react002",
+      "course_id": "c1",
+      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0"
     },
     {
-      "id": "2fe35617-c4aa-4150-a314-ea0a06f3408e",
-      "title": "Lesson 4",
-      "status": "archived",
-      "publish_date": "2023-02-22T02:13:59.235Z",
-      "video_url": "https://videos.example.com/video4.mp4",
-      "course_id": "92ceb232-b643-4819-961c-110cb1994dc5",
-      "creator_id": "b74f7221-831f-4b20-abd6-9e64f3463a7a"
-    },
-    {
-      "id": "8bf607ef-5a64-4943-9cc9-f5d1de33167b",
-      "title": "Lesson 5",
+      "id": "l3",
+      "title": "Sintaxe básica do Python",
       "status": "published",
-      "publish_date": "2023-06-23T18:59:55.920Z",
-      "video_url": "https://videos.example.com/video5.mp4",
-      "course_id": "92ceb232-b643-4819-961c-110cb1994dc5",
-      "creator_id": "e7976ba4-f540-45e8-a3e1-f65a3802fef8"
+      "publish_date": "2025-08-12",
+      "video_url": "https://youtu.be/python001",
+      "course_id": "c2",
+      "creator_id": "d1"
     },
     {
-      "id": "fd0d4e73-f3c5-48d4-a8c4-83fe51e6b9f8",
-      "title": "Lesson 6",
-      "status": "archived",
-      "publish_date": "2022-08-14T01:10:20.201Z",
-      "video_url": "https://videos.example.com/video6.mp4",
-      "course_id": "910b0d6e-a509-44e3-bc91-c81759352f01",
-      "creator_id": "369418f3-f9e9-41cf-b65c-5839fb2b6932"
-    },
-    {
-      "id": "4e4df749-a3fa-4d20-97d5-cd807757f321",
-      "title": "Lesson 7",
-      "status": "archived",
-      "publish_date": "2022-12-03T01:42:28.578Z",
-      "video_url": "https://videos.example.com/video7.mp4",
-      "course_id": "910b0d6e-a509-44e3-bc91-c81759352f01",
-      "creator_id": "b74f7221-831f-4b20-abd6-9e64f3463a7a"
-    },
-    {
-      "id": "02e9bee2-dd06-41e1-843c-2d7192c83465",
-      "title": "Lesson 8",
-      "status": "archived",
-      "publish_date": "2022-05-27T00:43:17.334Z",
-      "video_url": "https://videos.example.com/video8.mp4",
-      "course_id": "40a29157-71e3-4ace-85f5-6ac6813380af",
-      "creator_id": "8f1f56fd-dc72-45fa-b795-e292a7138d69"
-    },
-    {
-      "id": "6dff9a1a-bd56-4a8c-ab9f-0a8277e68021",
-      "title": "Lesson 9",
-      "status": "archived",
-      "publish_date": "2022-11-06T01:46:09.499Z",
-      "video_url": "https://videos.example.com/video9.mp4",
-      "course_id": "910b0d6e-a509-44e3-bc91-c81759352f01",
-      "creator_id": "bfe9fab4-ed2c-4e37-921d-46954e28c626"
-    },
-    {
-      "id": "93ee489d-6353-4080-a02d-3aa41d496ea6",
-      "title": "Lesson 10",
-      "status": "archived",
-      "publish_date": "2022-05-23T09:43:43.164Z",
-      "video_url": "https://videos.example.com/video10.mp4",
-      "course_id": "40a29157-71e3-4ace-85f5-6ac6813380af",
-      "creator_id": "e7976ba4-f540-45e8-a3e1-f65a3802fef8"
-    },
-    {
-      "id": "9e656e83-765d-4d75-bf67-4a6e4a94703d",
-      "title": "Lesson 11",
+      "id": "l4",
+      "title": "Estruturas de controle",
       "status": "published",
-      "publish_date": "2021-03-04T12:10:37.417Z",
-      "video_url": "https://videos.example.com/video11.mp4",
-      "course_id": "92ceb232-b643-4819-961c-110cb1994dc5",
-      "creator_id": "b74f7221-831f-4b20-abd6-9e64f3463a7a"
+      "publish_date": "2025-08-20",
+      "video_url": "https://youtu.be/python002",
+      "course_id": "c2",
+      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0"
     },
     {
-      "id": "4437092c-0772-42a9-b038-5883208a002a",
-      "title": "Lesson 12",
-      "status": "archived",
-      "publish_date": "2022-12-21T22:34:21.085Z",
-      "video_url": "https://videos.example.com/video12.mp4",
-      "course_id": "910b0d6e-a509-44e3-bc91-c81759352f01",
-      "creator_id": "d0c3f1b7-48a5-4569-a1dd-c11559f6cf8e"
-    },
-    {
-      "id": "8a7229c3-7936-4b37-ab6c-2e425f6b9004",
-      "title": "Lesson 13",
+      "id": "l5",
+      "title": "Consultas básicas em SQL",
       "status": "draft",
-      "publish_date": "2023-07-19T04:59:32.927Z",
-      "video_url": "https://videos.example.com/video13.mp4",
-      "course_id": "40a29157-71e3-4ace-85f5-6ac6813380af",
-      "creator_id": "c1a4df5c-7647-4485-9fec-ae34568b25ed"
+      "publish_date": "2025-08-22",
+      "video_url": "https://youtu.be/postgres001",
+      "course_id": "c3",
+      "creator_id": "d2"
     },
     {
-      "id": "d978eff8-8eaa-45e6-9552-cc6f98fd8209",
-      "title": "Lesson 14",
+      "id": "l6",
+      "title": "Relacionamentos entre tabelas",
       "status": "published",
-      "publish_date": "2022-11-10T16:27:32.027Z",
-      "video_url": "https://videos.example.com/video14.mp4",
-      "course_id": "910b0d6e-a509-44e3-bc91-c81759352f01",
-      "creator_id": "8f1f56fd-dc72-45fa-b795-e292a7138d69"
+      "publish_date": "2025-08-30",
+      "video_url": "https://youtu.be/postgres002",
+      "course_id": "c3",
+      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0"
     },
     {
-      "id": "1abb757d-849f-4992-a6ad-a6d118d3be20",
-      "title": "Lesson 15",
-      "status": "archived",
-      "publish_date": "2023-10-24T13:37:18.685Z",
-      "video_url": "https://videos.example.com/video15.mp4",
-      "course_id": "40a29157-71e3-4ace-85f5-6ac6813380af",
-      "creator_id": "e7976ba4-f540-45e8-a3e1-f65a3802fef8"
+      "id": "l7",
+      "title": "Instalação e setup do Django",
+      "status": "published",
+      "publish_date": "2025-08-05",
+      "video_url": "https://youtu.be/django001",
+      "course_id": "c4",
+      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0"
     },
     {
-      "id": "ba51fd8d-2349-40fc-8923-1bba998f6ccc",
-      "title": "Lesson 1",
+      "id": "l8",
+      "title": "Views e URLs",
       "status": "draft",
-      "publish_date": "2021-10-03T18:15:15.065Z",
-      "video_url": "https://videos.example.com/video1.mp4",
-      "course_id": "85d4c6e3-2b5f-4af8-a298-d9af748ac414",
-      "creator_id": "8e7c0f87-53e8-4542-be92-0c4b876d5cb4"
+      "publish_date": "2025-08-12",
+      "video_url": "https://youtu.be/django002",
+      "course_id": "c4",
+      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0"
     },
     {
-      "id": "3987cc02-cf0f-4237-8f26-174d58b542e7",
-      "title": "Lesson 2",
+      "id": "l9",
+      "title": "Conceitos básicos do Tailwind",
+      "status": "published",
+      "publish_date": "2025-08-07",
+      "video_url": "https://youtu.be/tailwind001",
+      "course_id": "c5",
+      "creator_id": "d3"
+    },
+    {
+      "id": "l10",
+      "title": "Layout com Flexbox e Grid",
+      "status": "archived",
+      "publish_date": "2025-09-01",
+      "video_url": "https://youtu.be/tailwind002",
+      "course_id": "c5",
+      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0"
+    },
+    {
+      "id": "l11",
+      "title": "Listas encadeadas em C++",
       "status": "draft",
-      "publish_date": "2022-02-03T03:46:32.630Z",
-      "video_url": "https://videos.example.com/video2.mp4",
-      "course_id": "85d4c6e3-2b5f-4af8-a298-d9af748ac414",
-      "creator_id": "a6bf6ed3-e61e-4887-bab9-0ffbb20982f4"
+      "publish_date": "2025-09-05",
+      "video_url": "https://youtu.be/cpp001",
+      "course_id": "c6",
+      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0"
     },
     {
-      "id": "3a975990-ffbd-4af0-8c18-bf6a41f67642",
-      "title": "Lesson 3",
-      "status": "archived",
-      "publish_date": "2020-12-08T04:10:23.937Z",
-      "video_url": "https://videos.example.com/video3.mp4",
-      "course_id": "ebeac5d1-af44-4e81-ae98-2f51a54cdf74",
-      "creator_id": "249efb98-41bf-4862-86e9-416b1ff40c9d"
+      "id": "l12",
+      "title": "Árvores binárias",
+      "status": "published",
+      "publish_date": "2025-09-10",
+      "video_url": "https://youtu.be/cpp002",
+      "course_id": "c6",
+      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0"
     },
     {
-      "id": "9f7bf544-6e52-4818-9fab-78848d9d183e",
-      "title": "Lesson 4",
+      "id": "l13",
+      "title": "Branching e Merging",
+      "status": "published",
+      "publish_date": "2025-08-01",
+      "video_url": "https://youtu.be/git001",
+      "course_id": "c7",
+      "creator_id": "d4"
+    },
+    {
+      "id": "l14",
+      "title": "Resolvendo conflitos",
       "status": "draft",
-      "publish_date": "2023-04-11T19:48:56.650Z",
-      "video_url": "https://videos.example.com/video4.mp4",
-      "course_id": "85d4c6e3-2b5f-4af8-a298-d9af748ac414",
-      "creator_id": "187befb2-2ca7-4c7b-a788-d2d447c70e4c"
+      "publish_date": "2025-08-15",
+      "video_url": "https://youtu.be/git002",
+      "course_id": "c7",
+      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0"
     },
     {
-      "id": "f35d720a-de83-4ca2-a0de-6d3540bffe2e",
-      "title": "Lesson 5",
-      "status": "archived",
-      "publish_date": "2020-12-12T14:34:31.351Z",
-      "video_url": "https://videos.example.com/video5.mp4",
-      "course_id": "ebeac5d1-af44-4e81-ae98-2f51a54cdf74",
-      "creator_id": "b7d9cff7-bac1-45f9-a4df-fd453192ca0a"
+      "id": "l15",
+      "title": "SSR com Next.js",
+      "status": "published",
+      "publish_date": "2025-09-12",
+      "video_url": "https://youtu.be/next001",
+      "course_id": "c8",
+      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0"
     },
     {
-      "id": "8f34b7c4-0310-4157-bd80-8778b53db9f6",
-      "title": "Lesson 6",
-      "status": "archived",
-      "publish_date": "2021-06-15T06:13:09.234Z",
-      "video_url": "https://videos.example.com/video6.mp4",
-      "course_id": "ebeac5d1-af44-4e81-ae98-2f51a54cdf74",
-      "creator_id": "249efb98-41bf-4862-86e9-416b1ff40c9d"
-    },
-    {
-      "id": "8af88599-71a2-477b-8e5a-c91002894dca",
-      "title": "Lesson 7",
-      "status": "archived",
-      "publish_date": "2021-07-07T08:19:29.736Z",
-      "video_url": "https://videos.example.com/video7.mp4",
-      "course_id": "ebeac5d1-af44-4e81-ae98-2f51a54cdf74",
-      "creator_id": "187befb2-2ca7-4c7b-a788-d2d447c70e4c"
-    },
-    {
-      "id": "cef828d1-5bae-41d0-afd7-19c0f7d65f33",
-      "title": "Lesson 8",
+      "id": "l16",
+      "title": "Rotas dinâmicas",
       "status": "draft",
-      "publish_date": "2022-11-22T15:30:17.772Z",
-      "video_url": "https://videos.example.com/video8.mp4",
-      "course_id": "85d4c6e3-2b5f-4af8-a298-d9af748ac414",
-      "creator_id": "d03779b9-508e-4ae8-a690-4b851a381515"
-    },
-    {
-      "id": "91b33055-007e-4ea2-bb7f-f444c6454f47",
-      "title": "Lesson 9",
-      "status": "draft",
-      "publish_date": "2020-12-24T15:56:12.672Z",
-      "video_url": "https://videos.example.com/video9.mp4",
-      "course_id": "a86bf53a-4e4e-4eb9-885e-40d0114db8f9",
-      "creator_id": "249efb98-41bf-4862-86e9-416b1ff40c9d"
-    },
-    {
-      "id": "07b48038-9b4f-45b5-8446-9980b364bcb7",
-      "title": "Lesson 10",
-      "status": "published",
-      "publish_date": "2023-02-26T13:30:30.815Z",
-      "video_url": "https://videos.example.com/video10.mp4",
-      "course_id": "85d4c6e3-2b5f-4af8-a298-d9af748ac414",
-      "creator_id": "63b189f1-a29f-4527-8f04-4c97a36532bc"
-    },
-    {
-      "id": "046af1c8-96e3-4ade-a8af-450f34541244",
-      "title": "Lesson 11",
-      "status": "published",
-      "publish_date": "2022-08-11T14:04:21.905Z",
-      "video_url": "https://videos.example.com/video11.mp4",
-      "course_id": "85d4c6e3-2b5f-4af8-a298-d9af748ac414",
-      "creator_id": "71d57496-cefa-4054-91b5-58edffe0d6c6"
-    },
-    {
-      "id": "a99a69d5-56fa-4c14-8ca4-41f5c2144a11",
-      "title": "Lesson 12",
-      "status": "archived",
-      "publish_date": "2022-10-19T03:14:05.255Z",
-      "video_url": "https://videos.example.com/video12.mp4",
-      "course_id": "85d4c6e3-2b5f-4af8-a298-d9af748ac414",
-      "creator_id": "249efb98-41bf-4862-86e9-416b1ff40c9d"
-    },
-    {
-      "id": "07fa691d-f91e-4202-8737-218254c4d92c",
-      "title": "Lesson 13",
-      "status": "published",
-      "publish_date": "2020-10-06T09:53:01.041Z",
-      "video_url": "https://videos.example.com/video13.mp4",
-      "course_id": "a86bf53a-4e4e-4eb9-885e-40d0114db8f9",
-      "creator_id": "d03779b9-508e-4ae8-a690-4b851a381515"
-    },
-    {
-      "id": "9d212cca-753b-4ca7-8225-194e60a0b363",
-      "title": "Lesson 14",
-      "status": "archived",
-      "publish_date": "2022-01-10T06:52:57.323Z",
-      "video_url": "https://videos.example.com/video14.mp4",
-      "course_id": "ebeac5d1-af44-4e81-ae98-2f51a54cdf74",
-      "creator_id": "63b189f1-a29f-4527-8f04-4c97a36532bc"
-    },
-    {
-      "id": "b464b132-074b-4666-bd38-464f6d2fc8c8",
-      "title": "Lesson 15",
-      "status": "archived",
-      "publish_date": "2020-11-12T13:42:11.044Z",
-      "video_url": "https://videos.example.com/video15.mp4",
-      "course_id": "a86bf53a-4e4e-4eb9-885e-40d0114db8f9",
-      "creator_id": "8e7c0f87-53e8-4542-be92-0c4b876d5cb4"
-    },
-    {
-      "id": "753636a2-2249-423e-a3a5-f27c46b12cd8",
-      "title": "Lesson 1",
-      "status": "published",
-      "publish_date": "2022-12-19T14:41:35.751Z",
-      "video_url": "https://videos.example.com/video1.mp4",
-      "course_id": "9f3b7eb1-4acf-4f28-8143-5a84c09be264",
-      "creator_id": "40db99fe-0167-4ce2-af5f-e87851f4d802"
-    },
-    {
-      "id": "444ad742-2cd1-49c9-aae4-f06aec66a172",
-      "title": "Lesson 2",
-      "status": "archived",
-      "publish_date": "2025-06-07T20:38:09.350Z",
-      "video_url": "https://videos.example.com/video2.mp4",
-      "course_id": "9f3b7eb1-4acf-4f28-8143-5a84c09be264",
-      "creator_id": "40db99fe-0167-4ce2-af5f-e87851f4d802"
-    },
-    {
-      "id": "998c8615-9c7e-4ed4-bb7a-3d58779e74c3",
-      "title": "Lesson 3",
-      "status": "published",
-      "publish_date": "2024-09-10T21:48:18.152Z",
-      "video_url": "https://videos.example.com/video3.mp4",
-      "course_id": "a0ce3b4b-86ec-4fdd-b1c4-1851c9f08fea",
-      "creator_id": "8207a831-4f6e-4081-aa52-17a01aa9d13c"
-    },
-    {
-      "id": "564239ad-242e-4f60-8a48-93efceacdca3",
-      "title": "Lesson 4",
-      "status": "archived",
-      "publish_date": "2024-11-09T05:07:36.699Z",
-      "video_url": "https://videos.example.com/video4.mp4",
-      "course_id": "a0ce3b4b-86ec-4fdd-b1c4-1851c9f08fea",
-      "creator_id": "4537aefb-6679-4f41-89b6-1b0e8d0bc53a"
-    },
-    {
-      "id": "ef120c85-0a01-450b-9a15-cfba882d2fe2",
-      "title": "Lesson 5",
-      "status": "archived",
-      "publish_date": "2025-07-11T23:47:27.533Z",
-      "video_url": "https://videos.example.com/video5.mp4",
-      "course_id": "a0ce3b4b-86ec-4fdd-b1c4-1851c9f08fea",
-      "creator_id": "23f8e368-e05c-4117-940d-76c9a51d9043"
-    },
-    {
-      "id": "dff4aa16-fcd8-4533-aab3-3b58afe7b116",
-      "title": "Lesson 6",
-      "status": "published",
-      "publish_date": "2023-10-25T18:13:33.824Z",
-      "video_url": "https://videos.example.com/video6.mp4",
-      "course_id": "9f3b7eb1-4acf-4f28-8143-5a84c09be264",
-      "creator_id": "29376244-7fe1-41b4-80fb-82f10279e7f2"
-    },
-    {
-      "id": "303386a5-6c4f-46bd-a122-be3b6b768c03",
-      "title": "Lesson 7",
-      "status": "draft",
-      "publish_date": "2024-08-28T08:00:12.950Z",
-      "video_url": "https://videos.example.com/video7.mp4",
-      "course_id": "a0ce3b4b-86ec-4fdd-b1c4-1851c9f08fea",
-      "creator_id": "4537aefb-6679-4f41-89b6-1b0e8d0bc53a"
-    },
-    {
-      "id": "37c3d348-6808-4214-8a51-78b5257c1e79",
-      "title": "Lesson 8",
-      "status": "published",
-      "publish_date": "2023-01-27T22:14:25.391Z",
-      "video_url": "https://videos.example.com/video8.mp4",
-      "course_id": "9f3b7eb1-4acf-4f28-8143-5a84c09be264",
-      "creator_id": "23f8e368-e05c-4117-940d-76c9a51d9043"
-    },
-    {
-      "id": "bbfced54-250c-42c4-bfff-4842528ab137",
-      "title": "Lesson 9",
-      "status": "archived",
-      "publish_date": "2024-12-09T05:57:54.102Z",
-      "video_url": "https://videos.example.com/video9.mp4",
-      "course_id": "a0ce3b4b-86ec-4fdd-b1c4-1851c9f08fea",
-      "creator_id": "fddca7f2-9ed8-4ebb-b6df-860dff2b522d"
-    },
-    {
-      "id": "22a1fc54-8f97-48f5-b671-5790c07ecafd",
-      "title": "Lesson 10",
-      "status": "archived",
-      "publish_date": "2023-04-21T18:20:50.458Z",
-      "video_url": "https://videos.example.com/video10.mp4",
-      "course_id": "a397636c-90c8-4a7e-af37-129076e3da9f",
-      "creator_id": "190df0f3-0ea8-46ff-aac3-0b02cb100309"
-    },
-    {
-      "id": "2d1b330f-8787-47ee-90a7-9164c78428f5",
-      "title": "Lesson 11",
-      "status": "published",
-      "publish_date": "2024-10-03T06:44:57.503Z",
-      "video_url": "https://videos.example.com/video11.mp4",
-      "course_id": "9f3b7eb1-4acf-4f28-8143-5a84c09be264",
-      "creator_id": "8369adc3-bdc5-4ce5-8c55-15e2230f0d29"
-    },
-    {
-      "id": "a0f3ac59-691c-41dc-9a29-b1f84bcd62db",
-      "title": "Lesson 12",
-      "status": "archived",
-      "publish_date": "2025-03-17T21:41:02.923Z",
-      "video_url": "https://videos.example.com/video12.mp4",
-      "course_id": "a0ce3b4b-86ec-4fdd-b1c4-1851c9f08fea",
-      "creator_id": "190df0f3-0ea8-46ff-aac3-0b02cb100309"
-    },
-    {
-      "id": "e5d43c81-1094-40b9-84e4-07486715e2c4",
-      "title": "Lesson 13",
-      "status": "draft",
-      "publish_date": "2023-10-18T08:48:26.251Z",
-      "video_url": "https://videos.example.com/video13.mp4",
-      "course_id": "a0ce3b4b-86ec-4fdd-b1c4-1851c9f08fea",
-      "creator_id": "4537aefb-6679-4f41-89b6-1b0e8d0bc53a"
-    },
-    {
-      "id": "c4e9a7e4-7a05-4cf3-9e54-0319006ea149",
-      "title": "Lesson 14",
-      "status": "archived",
-      "publish_date": "2024-02-17T23:42:20.676Z",
-      "video_url": "https://videos.example.com/video14.mp4",
-      "course_id": "a0ce3b4b-86ec-4fdd-b1c4-1851c9f08fea",
-      "creator_id": "8207a831-4f6e-4081-aa52-17a01aa9d13c"
-    },
-    {
-      "id": "f1341748-66bc-4bb3-bad7-8ffe673c2e55",
-      "title": "Lesson 15",
-      "status": "archived",
-      "publish_date": "2022-05-09T17:46:38.523Z",
-      "video_url": "https://videos.example.com/video15.mp4",
-      "course_id": "a397636c-90c8-4a7e-af37-129076e3da9f",
-      "creator_id": "8369adc3-bdc5-4ce5-8c55-15e2230f0d29"
+      "publish_date": "2025-09-18",
+      "video_url": "https://youtu.be/next002",
+      "course_id": "c8",
+      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0"
     }
   ]
 }
