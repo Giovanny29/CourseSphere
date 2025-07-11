@@ -1,8 +1,9 @@
 /* IMPORTS DEVEM FICAR NO TOPO */
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&display=swap');
 @import 'tailwindcss';
-
 @layer base {
   :root {
     /* Primary Colors */
@@ -123,4 +124,21 @@
       transition: var(--transition-normal);
     }
   }
+}
+.test-font {
+  font-family: 'Holtwood One SC', serif !important;
+  font-weight: bold;
+  font-size: 2em;
+}
+@keyframes spin-reverse {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.animate-spin-reverse {
+  animation: spin-reverse 1s linear infinite;
 }
