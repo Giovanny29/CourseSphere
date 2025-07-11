@@ -7,7 +7,7 @@
       "password": "kojismo"
     },
     {
-      "id": "a1f7d3b4-98c2-4e1d-8e4b-7d5b9f23c3a9",
+      "id": "0e3a5190-23ff-4cfa-82c4-6d2f6616e9e9",
       "name": "Marina Alves Silva",
       "email": "marina.alves@example.com",
       "password": "marina1"
@@ -45,7 +45,7 @@
   ],
   "courses": [
     {
-      "id": "e1a7c89f-b9f9-46e1-943e-2e001a23fc01",
+      "id": "1",
       "name": "Introdução à Lógica Computacional",
       "description": "Fundamentos de lógica aplicada à ciência da computação.",
       "start_date": "2025-08-01T08:00:00.000Z",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "id": "4dd1669b-2c21-432f-aef2-353fa2f9a904",
+      "id": "2",
       "name": "Desenvolvimento Web com React",
       "description": "Curso completo de React com projetos práticos.",
       "start_date": "2025-07-15T08:00:00.000Z",
@@ -87,7 +87,9 @@
       "start_date": "2025-09-01T08:00:00.000Z",
       "end_date": "2026-01-15T08:00:00.000Z",
       "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0",
-      "instructors": ["cc108551-4aab-409c-8067-ffa271ab08f0"]
+      "instructors": [
+        "cc108551-4aab-409c-8067-ffa271ab08f0"
+      ]
     },
     {
       "id": "17691ee6-df19-4b3c-87ff-8eb166231a19",
@@ -108,7 +110,9 @@
       "start_date": "2025-08-01",
       "end_date": "2025-10-01",
       "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0",
-      "instructors": ["cc108551-4aab-409c-8067-ffa271ab08f0"]
+      "instructors": [
+        "cc108551-4aab-409c-8067-ffa271ab08f0"
+      ]
     },
     {
       "id": "c2",
@@ -117,7 +121,10 @@
       "start_date": "2025-08-10",
       "end_date": "2025-09-20",
       "creator_id": "d1",
-      "instructors": ["d1", "cc108551-4aab-409c-8067-ffa271ab08f0"]
+      "instructors": [
+        "d1",
+        "cc108551-4aab-409c-8067-ffa271ab08f0"
+      ]
     },
     {
       "id": "c3",
@@ -126,7 +133,10 @@
       "start_date": "2025-07-15",
       "end_date": "2025-09-15",
       "creator_id": "d2",
-      "instructors": ["d2", "cc108551-4aab-409c-8067-ffa271ab08f0"]
+      "instructors": [
+        "d2",
+        "cc108551-4aab-409c-8067-ffa271ab08f0"
+      ]
     },
     {
       "id": "c4",
@@ -135,7 +145,9 @@
       "start_date": "2025-08-01",
       "end_date": "2025-10-15",
       "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0",
-      "instructors": ["cc108551-4aab-409c-8067-ffa271ab08f0"]
+      "instructors": [
+        "cc108551-4aab-409c-8067-ffa271ab08f0"
+      ]
     },
     {
       "id": "c5",
@@ -144,7 +156,10 @@
       "start_date": "2025-08-05",
       "end_date": "2025-09-30",
       "creator_id": "d3",
-      "instructors": ["d3", "cc108551-4aab-409c-8067-ffa271ab08f0"]
+      "instructors": [
+        "d3",
+        "cc108551-4aab-409c-8067-ffa271ab08f0"
+      ]
     },
     {
       "id": "c6",
@@ -153,7 +168,9 @@
       "start_date": "2025-09-01",
       "end_date": "2025-11-01",
       "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0",
-      "instructors": ["cc108551-4aab-409c-8067-ffa271ab08f0"]
+      "instructors": [
+        "cc108551-4aab-409c-8067-ffa271ab08f0"
+      ]
     },
     {
       "id": "c7",
@@ -162,7 +179,10 @@
       "start_date": "2025-07-25",
       "end_date": "2025-09-05",
       "creator_id": "d4",
-      "instructors": ["d4", "cc108551-4aab-409c-8067-ffa271ab08f0"]
+      "instructors": [
+        "d4",
+        "cc108551-4aab-409c-8067-ffa271ab08f0"
+      ]
     },
     {
       "id": "c8",
@@ -171,7 +191,9 @@
       "start_date": "2025-09-10",
       "end_date": "2025-11-10",
       "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0",
-      "instructors": ["cc108551-4aab-409c-8067-ffa271ab08f0"]
+      "instructors": [
+        "cc108551-4aab-409c-8067-ffa271ab08f0"
+      ]
     },
     {
       "id": "c9",
@@ -180,7 +202,10 @@
       "start_date": "2025-10-01",
       "end_date": "2025-12-01",
       "creator_id": "d5",
-      "instructors": ["d5", "cc108551-4aab-409c-8067-ffa271ab08f0"]
+      "instructors": [
+        "d5",
+        "cc108551-4aab-409c-8067-ffa271ab08f0"
+      ]
     },
     {
       "id": "c10",
@@ -189,7 +214,9 @@
       "start_date": "2025-09-05",
       "end_date": "2025-11-05",
       "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0",
-      "instructors": ["cc108551-4aab-409c-8067-ffa271ab08f0"]
+      "instructors": [
+        "cc108551-4aab-409c-8067-ffa271ab08f0"
+      ]
     },
     {
       "id": "c11",
@@ -198,7 +225,10 @@
       "start_date": "2025-08-20",
       "end_date": "2025-10-20",
       "creator_id": "d6",
-      "instructors": ["d6", "cc108551-4aab-409c-8067-ffa271ab08f0"]
+      "instructors": [
+        "d6",
+        "cc108551-4aab-409c-8067-ffa271ab08f0"
+      ]
     },
     {
       "id": "c12",
@@ -207,7 +237,9 @@
       "start_date": "2025-07-15",
       "end_date": "2025-08-30",
       "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0",
-      "instructors": ["cc108551-4aab-409c-8067-ffa271ab08f0"]
+      "instructors": [
+        "cc108551-4aab-409c-8067-ffa271ab08f0"
+      ]
     },
     {
       "id": "c13",
@@ -216,7 +248,10 @@
       "start_date": "2025-09-01",
       "end_date": "2025-10-30",
       "creator_id": "d3",
-      "instructors": ["d3", "cc108551-4aab-409c-8067-ffa271ab08f0"]
+      "instructors": [
+        "d3",
+        "cc108551-4aab-409c-8067-ffa271ab08f0"
+      ]
     },
     {
       "id": "c14",
@@ -225,7 +260,9 @@
       "start_date": "2025-10-01",
       "end_date": "2025-12-01",
       "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0",
-      "instructors": ["cc108551-4aab-409c-8067-ffa271ab08f0"]
+      "instructors": [
+        "cc108551-4aab-409c-8067-ffa271ab08f0"
+      ]
     },
     {
       "id": "c15",
@@ -234,54 +271,101 @@
       "start_date": "2025-08-10",
       "end_date": "2025-10-10",
       "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0",
-      "instructors": ["cc108551-4aab-409c-8067-ffa271ab08f0"]
+      "instructors": [
+        "cc108551-4aab-409c-8067-ffa271ab08f0"
+      ]
     }
   ],
   "lessons": [
     {
-      "id": "l1",
-      "title": "Introdução ao React e JSX",
+      "id": "a3",
+      "title": "Tabelas-Verdade",
       "status": "published",
-      "publish_date": "2025-08-10",
-      "video_url": "https://youtu.be/react001",
-      "course_id": "c1",
+      "publish_date": "2025-08-10T08:00:00.000Z",
+      "video_url": "https://example.com/video3",
+      "course_id": "1",
+      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0"
+    },
+    {
+      "id": "a4",
+      "title": "Leis da Lógica",
+      "status": "published",
+      "publish_date": "2025-08-12T08:00:00.000Z",
+      "video_url": "https://example.com/video4",
+      "course_id": "1",
+      "creator_id": "0e3a5190-23ff-4cfa-82c4-6d2f6616e9e9"
+    },
+    {
+      "id": "a5",
+      "title": "Equivalência Lógica",
+      "status": "draft",
+      "publish_date": "2025-08-14T08:00:00.000Z",
+      "video_url": "https://example.com/video5",
+      "course_id": "1",
+      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0"
+    },
+    {
+      "id": "a6",
+      "title": "Argumentos e Validade",
+      "status": "published",
+      "publish_date": "2025-08-16T08:00:00.000Z",
+      "video_url": "https://example.com/video6",
+      "course_id": "1",
+      "creator_id": "0e3a5190-23ff-4cfa-82c4-6d2f6616e9e9"
+    },
+    {
+      "id": "a7",
+      "title": "Quantificadores",
+      "status": "draft",
+      "publish_date": "2025-08-18T08:00:00.000Z",
+      "video_url": "https://example.com/video7",
+      "course_id": "1",
+      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0"
+    },
+    {
+      "id": "a8",
+      "title": "Lógica de Predicados",
+      "status": "published",
+      "publish_date": "2025-08-20T08:00:00.000Z",
+      "video_url": "https://example.com/video8",
+      "course_id": "1",
+      "creator_id": "0e3a5190-23ff-4cfa-82c4-6d2f6616e9e9"
+    },
+    {
+      "id": "a9",
+      "title": "Inferência e Demonstrações",
+      "status": "published",
+      "publish_date": "2025-08-22T08:00:00.000Z",
+      "video_url": "https://example.com/video9",
+      "course_id": "1",
+      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0"
+    },
+    {
+      "id": "a10",
+      "title": "Revisão Geral e Exercícios",
+      "status": "draft",
+      "publish_date": "2025-08-24T08:00:00.000Z",
+      "video_url": "https://example.com/video10",
+      "course_id": "1",
+      "creator_id": "0e3a5190-23ff-4cfa-82c4-6d2f6616e9e9"
+    },
+    {
+      "id": "l1",
+      "title": "Introdução à Lógica Booleana",
+      "status": "published",
+      "publish_date": "2025-08-02T08:00:00.000Z",
+      "video_url": "https://example.com/videos/booleana.mp4",
+      "course_id": "1",
       "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0"
     },
     {
       "id": "l2",
-      "title": "Componentes e Props",
+      "title": "Conectivos Lógicos",
       "status": "draft",
-      "publish_date": "2025-08-15",
-      "video_url": "https://youtu.be/react002",
-      "course_id": "c1",
-      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0"
-    },
-    {
-      "id": "l3",
-      "title": "Sintaxe básica do Python",
-      "status": "published",
-      "publish_date": "2025-08-12",
-      "video_url": "https://youtu.be/python001",
-      "course_id": "c2",
-      "creator_id": "d1"
-    },
-    {
-      "id": "l4",
-      "title": "Estruturas de controle",
-      "status": "published",
-      "publish_date": "2025-08-20",
-      "video_url": "https://youtu.be/python002",
-      "course_id": "c2",
-      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0"
-    },
-    {
-      "id": "l5",
-      "title": "Consultas básicas em SQL",
-      "status": "draft",
-      "publish_date": "2025-08-22",
-      "video_url": "https://youtu.be/postgres001",
-      "course_id": "c3",
-      "creator_id": "d2"
+      "publish_date": "2025-08-04T08:00:00.000Z",
+      "video_url": "https://example.com/videos/conectivos.mp4",
+      "course_id": "1",
+      "creator_id": "0e3a5190-23ff-4cfa-82c4-6d2f6616e9e9"
     },
     {
       "id": "l6",
