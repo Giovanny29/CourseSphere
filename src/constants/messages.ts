@@ -25,3 +25,31 @@ export const GENERAL_MESSAGES = {
   DATA_FETCH_ERROR: 'Não foi possível carregar os dados.',
   SUCCESS_OPERATION: 'Operação realizada com sucesso!',
 };
+export const MESSAGES = {
+  ERRORS: {
+    LOAD_DATA: 'Erro ao carregar dados.',
+    COURSE_NOT_FOUND: 'Curso não encontrado.',
+    REMOVE_INSTRUCTOR: 'Erro ao remover instrutor.',
+    ADD_INSTRUCTOR: 'Erro ao adicionar instrutor.',
+    INVALID_DATA: 'Dados inválidos do novo instrutor',
+    SHORT_PASSWORD: 'Senha do novo instrutor muito curta',
+    FETCH_USER: 'Erro ao buscar usuário externo',
+    CREATE_USER: 'Erro ao salvar novo instrutor',
+    UPDATE_COURSE: 'Erro ao atualizar instrutores do curso',
+    LESSONS_NOT_FOUND: 'Erro ao buscar aulas do instrutor',
+    DELETE_COURSE: 'Erro ao deletar curso',
+  },
+  SUCCESS: {
+    REMOVE_INSTRUCTOR: 'Instrutor e suas aulas removidos com sucesso!',
+    ADD_INSTRUCTOR: 'Novo instrutor adicionado com sucesso!',
+    DELETE_COURSE: 'Curso deletado com sucesso!',
+  },
+  UI: {
+    ADDING: 'Adicionando...',
+    ADD_BUTTON: 'Adicionar Novo Instrutor',
+    REMOVE_BUTTON: 'Remover',
+    DELETE_COURSE_BUTTON: 'Excluir Curso',
+    MODAL_CONFIRM: 'Tem certeza que deseja remover este instrutor?',
+    NO_INSTRUCTORS: 'Nenhum instrutor cadastrado ainda.',
+  },
+};

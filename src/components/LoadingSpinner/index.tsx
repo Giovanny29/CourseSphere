@@ -9,7 +9,7 @@ const Spinner: React.FC = () => {
         {/* Círculo interno com borda mais grossa */}
         <div className="absolute top-3.5 left-3.5 w-9 h-9 border-[12px] border-white border-b-transparent rounded-full animate-spin-reverse" />
       </div>
-      <p className="mt-2 block text-purple-600">Loading....</p>
+      <p className="mt-4 text-white font-bold text-lg">Loading...</p>
     </div>
   );
 };
