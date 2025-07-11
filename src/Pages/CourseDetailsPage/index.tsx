@@ -10,6 +10,8 @@ import LessonFilters from '../../components/LessonFilters';
 import LessonList from '../../components/LessonList';
 import Pagination from '../../components/Pagination';
 import LoadingSpinner from '../../components/LoadingSpinner';
+import { MESSAGES } from '../../constants/messages';
+import { PlusCircle, Edit3, Users, Trash2 } from 'lucide-react'; // Importando ícones para os botões
 
 const CourseDetailsPage: React.FC = () => {
   const { id } = useParams();
@@ -44,14 +46,14 @@ const CourseDetailsPage: React.FC = () => {
     const fetchData = async () => {
       setLoading(true);
       try {
-        await new Promise((resolve) => setTimeout(resolve, 3000)); // simulação
+        await new Promise((resolve) => setTimeout(resolve, 1000)); // simulação com 1 segundo
         const [resCourse, resLessons, resUsers] = await Promise.all([
           fetch(`http://localhost:3001/courses/${id}`),
           fetch(`http://localhost:3001/lessons?course_id=${id}`),
           fetch('http://localhost:3001/users'),
         ]);
 
-        if (!resCourse.ok) throw new Error('Curso não encontrado');
+        if (!resCourse.ok) throw new Error(MESSAGES.ERRORS.COURSE_NOT_FOUND);
         const courseData: Course = await resCourse.json();
         const lessonData: Lesson[] = await resLessons.json();
         const userData: User[] = await resUsers.json();
@@ -60,7 +62,14 @@ const CourseDetailsPage: React.FC = () => {
         setLessons(lessonData);
         setUsers(userData);
       } catch (error) {
-        console.error('Erro ao carregar curso, aulas ou usuários:', error);
+        console.error(
+          'CourseSphere: Erro ao carregar curso, aulas ou usuários:',
+          error,
+        );
+        alert(
+          `CourseSphere: Erro ao carregar dados: ${error instanceof Error ? error.message : 'Erro desconhecido'}`,
+        );
+        navigate('/dashboard');
       } finally {
         setLoading(false);
       }
@@ -105,28 +114,19 @@ const CourseDetailsPage: React.FC = () => {
     setIsProcessing(false);
   };
 
-  const handleSetLessonSearch = async (val: string) => {
-    setIsProcessing(true);
+  const handleSetLessonSearch = (val: string) => {
     setLessonSearch(val);
     setCurrentPage(1);
-    await new Promise((r) => setTimeout(r, 500));
-    setIsProcessing(false);
   };
 
-  const handleSetSelectedStatus = async (val: string) => {
-    setIsProcessing(true);
+  const handleSetSelectedStatus = (val: string) => {
     setSelectedStatus(val);
     setCurrentPage(1);
-    await new Promise((r) => setTimeout(r, 500));
-    setIsProcessing(false);
   };
 
-  const handleSetSelectedInstructor = async (val: string) => {
-    setIsProcessing(true);
+  const handleSetSelectedInstructor = (val: string) => {
     setSelectedInstructor(val);
     setCurrentPage(1);
-    await new Promise((r) => setTimeout(r, 500));
-    setIsProcessing(false);
   };
 
   const openDeleteLessonModal = (lessonId: string) => {
@@ -159,9 +159,10 @@ const CourseDetailsPage: React.FC = () => {
       setLessons((prev) =>
         prev.filter((lesson) => lesson.id !== deletingLessonId),
       );
+      alert('CourseSphere: Aula excluída com sucesso!');
     } catch (error) {
-      console.log(error);
-      alert('Erro ao excluir aula.');
+      console.error(error);
+      alert('CourseSphere: Erro ao excluir aula.');
     }
     setIsProcessing(false);
     closeModal();
@@ -175,11 +176,11 @@ const CourseDetailsPage: React.FC = () => {
         method: 'DELETE',
       });
       if (!res.ok) throw new Error('Erro ao excluir curso');
-      alert('Curso excluído com sucesso!');
+      alert('CourseSphere: Curso excluído com sucesso!');
       navigate('/dashboard');
     } catch (error) {
-      console.log(error);
-      alert('Erro ao excluir curso.');
+      console.error(error);
+      alert('CourseSphere: Erro ao excluir curso.');
     }
     setIsProcessing(false);
     closeModal();
@@ -199,7 +200,7 @@ const CourseDetailsPage: React.FC = () => {
 
   if (loading || isProcessing)
     return (
-      <div className="min-h-screen flex flex-col bg-gradient-to-tr from-gray-900 via-gray-800 to-purple-900 text-white">
+      <div className="min-h-screen flex flex-col bg-gradient-to-tr from-gray-900 via-gray-800 to-purple-900 text-white font-sans">
         <Header userEmail={userEmail} userId={userId} />
         <main className="flex-grow flex items-center justify-center px-4 sm:px-6 lg:px-8 py-8 max-w-screen-xl mx-auto w-full">
           <LoadingSpinner />
@@ -210,15 +211,24 @@ const CourseDetailsPage: React.FC = () => {
 
   if (!course)
     return (
-      <p className="text-center text-red-400 mt-12">Curso não encontrado.</p>
+      <div className="min-h-screen flex flex-col bg-gradient-to-tr from-gray-900 via-gray-800 to-purple-900 text-white font-sans">
+        <Header userEmail={userEmail} userId={userId} />
+        <main className="flex-grow flex items-center justify-center px-4 sm:px-6 lg:px-8 py-8 max-w-screen-xl mx-auto w-full">
+          <p className="text-center text-red-400 text-2xl font-semibold">
+            {MESSAGES.ERRORS.COURSE_NOT_FOUND}
+          </p>
+        </main>
+        <Footer />
+      </div>
     );
 
   return (
     <>
-      <div className="min-h-screen flex flex-col bg-gradient-to-tr from-gray-900 via-gray-800 to-purple-900 text-white">
+      <div className="min-h-screen flex flex-col bg-gradient-to-tr from-gray-900 via-gray-800 to-purple-900 text-white font-sans">
         <Header userEmail={userEmail} userId={userId} />
         <main className="flex-grow px-4 sm:px-6 lg:px-8 py-8 max-w-screen-xl mx-auto w-full">
           <CourseInfo course={course} users={users} />
+
           <LessonFilters
             lessonSearch={lessonSearch}
             setLessonSearch={handleSetLessonSearch}
@@ -229,8 +239,11 @@ const CourseDetailsPage: React.FC = () => {
             instructors={course.instructors}
             getUserNameById={getUserNameById}
           />
+
           <div className="mb-10">
-            <h2 className="text-2xl font-semibold mb-4">Aulas</h2>
+            <h2 className="text-3xl font-bold text-indigo-300 mb-6 border-b-2 border-gray-700 pb-2">
+              Aulas do Curso
+            </h2>
             <LessonList
               lessons={paginatedLessons}
               getUserNameById={getUserNameById}
@@ -246,39 +259,38 @@ const CourseDetailsPage: React.FC = () => {
             />
           </div>
 
-          {isCreator && (
-            <div className="flex flex-wrap gap-4 mt-8">
+          <div className="flex flex-wrap justify-center gap-4 mt-12 mb-8 p-4 bg-gray-800 rounded-lg shadow-xl border border-gray-700">
+            {isCreator && (
+              <>
+                <button
+                  className="flex items-center gap-2 px-6 py-3 bg-blue-700 rounded-full hover:bg-blue-600 transition duration-300 ease-in-out text-lg font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-900"
+                  onClick={goToEditCourse}
+                >
+                  <Edit3 size={20} /> Editar Curso
+                </button>
+                <button
+                  className="flex items-center gap-2 px-6 py-3 bg-gray-900 rounded-full hover:bg-gray-800 transition duration-300 ease-in-out text-lg font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-gray-700 focus:ring-offset-2 focus:ring-offset-gray-900" // Alterado aqui
+                  onClick={goToManageInstructors}
+                >
+                  <Users size={20} /> Gerenciar Instrutores
+                </button>
+                <button
+                  className="flex items-center gap-2 px-6 py-3 bg-rose-700 rounded-full hover:bg-rose-600 transition duration-300 ease-in-out text-lg font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2 focus:ring-offset-gray-900"
+                  onClick={openDeleteCourseModal}
+                >
+                  <Trash2 size={20} /> Excluir Curso
+                </button>
+              </>
+            )}
+            {(isCreator || isInstructor) && (
               <button
-                className="px-4 py-2 bg-blue-600 rounded hover:bg-blue-500 transition"
-                onClick={goToEditCourse}
-              >
-                Editar Curso
-              </button>
-              <button
-                className="px-4 py-2 bg-green-600 rounded hover:bg-green-500 transition"
-                onClick={goToManageInstructors}
-              >
-                Gerenciar Instrutores
-              </button>
-              <button
-                className="px-4 py-2 bg-red-600 rounded hover:bg-red-500 transition"
-                onClick={openDeleteCourseModal}
-              >
-                Excluir Curso
-              </button>
-            </div>
-          )}
-
-          {(isCreator || isInstructor) && (
-            <div className="mt-6">
-              <button
-                className="px-5 py-2 bg-purple-600 hover:bg-purple-500 rounded text-white font-semibold"
+                className="flex items-center gap-2 px-6 py-3 bg-purple-700 rounded-full hover:bg-purple-600 transition duration-300 ease-in-out text-lg font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-gray-900"
                 onClick={goToCreateLesson}
               >
-                Criar Nova Aula
+                <PlusCircle size={20} /> Criar Nova Aula
               </button>
-            </div>
-          )}
+            )}
+          </div>
         </main>
         <Footer />
       </div>
@@ -287,8 +299,8 @@ const CourseDetailsPage: React.FC = () => {
         <ModalConfirm
           message={
             deletingCourse
-              ? 'Tem certeza que deseja excluir este curso?'
-              : 'Tem certeza que deseja excluir esta aula?'
+              ? 'CourseSphere: Tem certeza que deseja excluir este curso? Todas as aulas também serão removidas!'
+              : 'CourseSphere: Tem certeza que deseja excluir esta aula?'
           }
           onCancel={closeModal}
           onConfirm={deletingCourse ? confirmDeleteCourse : confirmDeleteLesson}

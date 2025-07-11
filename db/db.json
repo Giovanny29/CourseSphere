@@ -41,6 +41,78 @@
       "name": "Pedro Henrique Santos",
       "email": "pedro.santos@example.com",
       "password": "pedro89"
+    },
+    {
+      "id": "9e8d30c0-9900-45d3-8abc-f443486bc8c1",
+      "name": "Shabari Bangera",
+      "email": "shabari.bangera@example.com",
+      "password": "pgoeoj4e"
+    },
+    {
+      "id": "ecf0f9f2-7e2c-41cc-92cc-3c3166c8a8ea",
+      "name": "Tobias Sørensen",
+      "email": "tobias.sorensen@example.com",
+      "password": "yy4l0jiu"
+    },
+    {
+      "id": "8b14261f-0bc8-496a-9e82-84edb1a4cb58",
+      "name": "سورنا سهيلي راد",
+      "email": "swrn.shylyrd@example.com",
+      "password": "fnubhsk4"
+    },
+    {
+      "id": "659dcc4e-7f01-491f-8371-e2ee94e08685",
+      "name": "Niklas Hokkanen",
+      "email": "niklas.hokkanen@example.com",
+      "password": "8viconhi"
+    },
+    {
+      "id": "ea545199-95b6-4b80-b22b-8a8855792e7c",
+      "name": "Krish Chavare",
+      "email": "krish.chavare@example.com",
+      "password": "3rnxqouk"
+    },
+    {
+      "id": "9071533c-2fd8-48b6-8295-8c32a1011f10",
+      "name": "German Hernández",
+      "email": "german.hernandez@example.com",
+      "password": "mj1zj1ni"
+    },
+    {
+      "id": "9de3e3f4-3183-4144-8744-4c6b41bca93c",
+      "name": "Laly Picard",
+      "email": "laly.picard@example.com",
+      "password": "ouyqax8h"
+    },
+    {
+      "id": "ade616b2-4ffa-4eb3-93f4-f860fd1b15fa",
+      "name": "Zander Macrae",
+      "email": "zander.macrae@example.com",
+      "password": "i9khqk7b"
+    },
+    {
+      "id": "aca9dee9-6bef-47e6-9122-d66abd5c0267",
+      "name": "Jen Barnes",
+      "email": "jen.barnes@example.com",
+      "password": "gbrpawdl"
+    },
+    {
+      "id": "fa8a05bb-599f-4389-a1fd-fdc6b8876b59",
+      "name": "Antonia Ozuna",
+      "email": "antonia.ozuna@example.com",
+      "password": "1pc0swtf"
+    },
+    {
+      "id": "88ebe190-faa8-4fe5-8f38-7a32ef56b945",
+      "name": "Tanmay Gamskar",
+      "email": "tanmay.gamskar@example.com",
+      "password": "ca5lzttj"
+    },
+    {
+      "id": "dc085ad8-05db-46f3-9040-716d443678fe",
+      "name": "Konsta Lehto",
+      "email": "konsta.lehto@example.com",
+      "password": "vaeyaf9a"
     }
   ],
   "courses": [
@@ -53,19 +125,11 @@
       "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0",
       "instructors": [
         "cc108551-4aab-409c-8067-ffa271ab08f0",
-        "0e3a5190-23ff-4cfa-82c4-6d2f6616e9e9"
-      ]
-    },
-    {
-      "id": "2",
-      "name": "Desenvolvimento Web com React",
-      "description": "Curso completo de React com projetos práticos.",
-      "start_date": "2025-07-15T08:00:00.000Z",
-      "end_date": "2025-11-15T08:00:00.000Z",
-      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0",
-      "instructors": [
-        "cc108551-4aab-409c-8067-ffa271ab08f0",
-        "1c423c1f-25c4-4456-9604-6b4ef82f3bc1"
+        "9e8d30c0-9900-45d3-8abc-f443486bc8c1",
+        "0e3a5190-23ff-4cfa-82c4-6d2f6616e9e9",
+        "fa8a05bb-599f-4389-a1fd-fdc6b8876b59",
+        "88ebe190-faa8-4fe5-8f38-7a32ef56b945",
+        "dc085ad8-05db-46f3-9040-716d443678fe"
       ]
     },
     {

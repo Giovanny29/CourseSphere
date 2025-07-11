@@ -72,7 +72,7 @@ const DashboardPage: React.FC = () => {
           searchQuery={courseNameFilter}
           onSearchChange={(value) => {
             setCourseNameFilter(value);
-            setCurrentPage(1); // ⬅️ Correção: volta para a página 1 ao filtrar
+            setCurrentPage(1);
           }}
         />
 

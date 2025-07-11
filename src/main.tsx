@@ -8,6 +8,7 @@ import Toast from './components/Toast';
 import Register from './Pages/Register';
 import DashboardPage from './Pages/Dashboard';
 import CourseDetailsPage from './Pages/CourseDetailsPage';
+import CourseInstructorsPage from './Pages/ManagerInstructorsPage';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -18,6 +19,10 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path="/courses/:id" element={<CourseDetailsPage />} />
         <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/courses" element={<DashboardPage />} />
+        <Route
+          path="/courses/:id/instructors"
+          element={<CourseInstructorsPage />}
+        />
         <Route path="/" element={<DashboardPage />} />
       </Routes>
       <Toast />
