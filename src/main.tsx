@@ -11,6 +11,7 @@ import CourseDetailsPage from './Pages/CourseDetailsPage';
 import CourseInstructorsPage from './Pages/ManagerInstructorsPage';
 import LessonFormPage from './Pages/LessonFormPage';
 import CourseFormPage from './Pages/CourseFormPage';
+import NotFoundPage from './Pages/NotFoundPage';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -30,6 +31,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path="/lessons/create" element={<LessonFormPage />} />
         <Route path="/lessons/edit/:lessonId" element={<LessonFormPage />} />
         <Route path="/" element={<DashboardPage />} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
       <Toast />
     </BrowserRouter>
