@@ -343,12 +343,12 @@
   "lessons": [
     {
       "id": "a3",
-      "title": "Tabelas-Verdade",
-      "status": "published",
-      "publish_date": "2025-08-10T08:00:00.000Z",
-      "video_url": "https://example.com/video3",
       "course_id": "1",
-      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0"
+      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0",
+      "title": "Tabelas",
+      "status": "published",
+      "publish_date": "2000-02-22",
+      "video_url": "https://example.com/video3"
     },
     {
       "id": "a4",
@@ -529,6 +529,33 @@
       "video_url": "https://youtu.be/next002",
       "course_id": "c8",
       "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0"
+    },
+    {
+      "id": "824bd812-d231-4782-9ec1-3a52de54d8f6",
+      "course_id": "1",
+      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0",
+      "title": "aula ",
+      "status": "published",
+      "publish_date": "2000-10-22",
+      "video_url": "https://example.com/video3"
+    },
+    {
+      "id": "82292fd3-8904-4cbc-ac19-7dc12f89135c",
+      "course_id": "1",
+      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0",
+      "title": "112",
+      "status": "draft",
+      "publish_date": "231312-01-23",
+      "video_url": "https://example.com/video3"
+    },
+    {
+      "id": "a388f01d-2635-4d57-8fff-2dbb2cdc6628",
+      "course_id": "1",
+      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0",
+      "title": "13313131313131",
+      "status": "archived",
+      "publish_date": "2222-10-20",
+      "video_url": "https://example.com/video3"
     }
   ]
 }
