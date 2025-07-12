@@ -8,6 +8,8 @@ import CourseFilter from '../../components/CouseFilter';
 import { filterCourses } from '../../utils/courseFilters';
 import { paginate, getTotalPages } from '../../utils/pagination';
 import Header from '../../components/Header';
+import LoadingSpinner from '../../components/LoadingSpinner';
+import Pagination from '../../components/Pagination'; // Importar o componente Pagination
 
 const DashboardPage: React.FC = () => {
   const navigate = useNavigate();
@@ -28,8 +30,13 @@ const DashboardPage: React.FC = () => {
     }
 
     const fetchCourses = async () => {
+      setLoading(true);
       try {
+        await new Promise((resolve) => setTimeout(resolve, 800));
         const res = await fetch('http://localhost:3001/courses');
+        if (!res.ok) {
+          throw new Error('Falha ao buscar cursos');
+        }
         const data: Course[] = await res.json();
         const filtered = data.filter(
           (course) =>
@@ -37,7 +44,10 @@ const DashboardPage: React.FC = () => {
         );
         setCourses(filtered);
       } catch (err) {
-        console.error('Erro ao buscar cursos:', err);
+        console.error('CourseSphere: Erro ao buscar cursos:', err);
+        alert(
+          'CourseSphere: Erro ao carregar seus cursos. Tente novamente mais tarde.',
+        );
       } finally {
         setLoading(false);
       }
@@ -53,19 +63,35 @@ const DashboardPage: React.FC = () => {
   const totalPages = getTotalPages(filteredCourses.length, itemsPerPage);
   const paginatedCourses = paginate(filteredCourses, currentPage, itemsPerPage);
 
+  useEffect(() => {
+    if (currentPage > totalPages && totalPages > 0) {
+      setCurrentPage(totalPages);
+    } else if (totalPages === 0 && currentPage !== 1) {
+      setCurrentPage(1);
+    }
+  }, [filteredCourses.length, totalPages, currentPage]);
+
   const goToPrevPage = () => setCurrentPage((p) => Math.max(p - 1, 1));
   const goToNextPage = () => setCurrentPage((p) => Math.min(p + 1, totalPages));
 
+  const handleCourseClick = (courseId: string) => {
+    navigate(`/courses/${courseId}`);
+  };
+
+  const handleCreateCourse = () => {
+    navigate('/courses/create');
+  };
+
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-tr from-gray-900 via-gray-800 to-purple-900 text-white">
+    <div className="min-h-screen flex flex-col bg-gradient-to-tr from-gray-900 via-gray-800 to-purple-900 text-white font-sans">
       <Header userEmail={userEmail} userId={userId} />
 
       <main className="flex-grow px-4 sm:px-6 lg:px-8 py-8 max-w-screen-xl mx-auto w-full">
-        <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 mb-6">
-          <h2 className="text-5xl font-extrabold font-serif bg-gradient-to-r from-green-300 via-green-200 to-purple-200 bg-clip-text text-transparent">
+        <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 mb-8">
+          <h2 className="text-5xl font-extrabold font-serif bg-gradient-to-r from-green-300 via-green-200 to-purple-200 bg-clip-text text-transparent drop-shadow-lg">
             Meus Cursos
           </h2>
-          <CreateCourseButton />
+          <CreateCourseButton onClick={handleCreateCourse} />
         </div>
 
         <CourseFilter
@@ -77,38 +103,28 @@ const DashboardPage: React.FC = () => {
         />
 
         {loading ? (
-          <p className="text-center text-gray-300 mt-12">
-            Carregando cursos...
-          </p>
+          <div className="flex justify-center items-center h-64">
+            <LoadingSpinner />
+          </div>
         ) : paginatedCourses.length === 0 ? (
-          <p className="text-center text-gray-300 mt-12">
-            Nenhum curso encontrado.
+          <p className="text-center text-gray-300 text-xl mt-12 py-8 bg-gray-800 rounded-lg shadow-md border border-gray-700">
+            Nenhum curso encontrado. Crie um novo curso para começar!
           </p>
         ) : (
           <>
             <div className="mt-8">
-              <CourseList courses={paginatedCourses} />
+              <CourseList
+                courses={paginatedCourses}
+                onCourseClick={handleCourseClick}
+              />
             </div>
 
-            <div className="flex justify-center mt-16 mb-12 space-x-4">
-              <button
-                onClick={goToPrevPage}
-                disabled={currentPage === 1}
-                className="px-4 py-2 bg-blue-700 hover:bg-blue-600 rounded text-white font-semibold disabled:opacity-50 transition"
-              >
-                Anterior
-              </button>
-              <span className="px-4 py-2 text-lg">
-                Página {currentPage} de {totalPages}
-              </span>
-              <button
-                onClick={goToNextPage}
-                disabled={currentPage === totalPages}
-                className="px-4 py-2 bg-blue-700 hover:bg-blue-600 rounded text-white font-semibold disabled:opacity-50 transition"
-              >
-                Próxima
-              </button>
-            </div>
+            <Pagination
+              currentPage={currentPage}
+              totalPages={totalPages}
+              onPrevPage={goToPrevPage}
+              onNextPage={goToNextPage}
+            />
           </>
         )}
       </main>

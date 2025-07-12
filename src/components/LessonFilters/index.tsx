@@ -65,6 +65,19 @@ const LessonFilters: React.FC<LessonFiltersProps> = ({
           />
           Publicada
         </label>
+        <label>
+          {' '}
+          {/* NOVA OPÇÃO PARA 'ARCHIVED' */}
+          <input
+            type="radio"
+            name="status"
+            value="archived"
+            checked={selectedStatus === 'archived'}
+            onChange={() => setSelectedStatus('archived')}
+            className="mr-1"
+          />
+          Arquivada
+        </label>
       </div>
 
       <select

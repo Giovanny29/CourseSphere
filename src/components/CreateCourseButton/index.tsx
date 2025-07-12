@@ -1,17 +1,18 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
-import { FiPlus } from 'react-icons/fi';
+import { PlusCircle } from 'lucide-react';
 
-const CreateCourseButton: React.FC = () => {
-  const navigate = useNavigate();
+interface CreateCourseButtonProps {
+  onClick: () => void;
+}
 
+const CreateCourseButton: React.FC<CreateCourseButtonProps> = ({ onClick }) => {
   return (
     <button
-      onClick={() => navigate('/create-course')}
-      className="flex items-center gap-2 bg-gradient-to-r from-purple-600 to-green-500 text-white px-6 py-3 rounded-xl text-lg font-semibold shadow-md hover:scale-105 transition-transform duration-300"
+      onClick={onClick}
+      className="flex items-center gap-2 px-6 py-3 bg-purple-700 rounded-full hover:bg-purple-600 transition duration-300 ease-in-out text-lg font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-gray-900"
+      aria-label="Criar novo curso"
     >
-      <FiPlus className="text-xl" />
-      Novo Curso
+      <PlusCircle size={20} /> Criar Novo Curso
     </button>
   );
 };
