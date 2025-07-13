@@ -1,70 +1,64 @@
-# React + TypeScript + Vite
+# SphereCourse - Sua Plataforma de Gerenciamento de Cursos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao projeto SphereCourse! Esta é uma aplicação web para gerenciar cursos, com funcionalidades de visualização, filtragem e autenticação de usuários.
 
-Currently, two official plugins are available:
+## Começando
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Siga as instruções abaixo para configurar e executar o projeto em sua máquina local.
 
-## Expanding the ESLint configuration
+### Pré-requisitos
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Certifique-se de ter o Node.js e o npm instalados em sua máquina.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **Node.js**: [Download e Instalação](https://nodejs.org/en/download/)
+- **npm**: Vem com o Node.js.
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+### Instalação
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+1.  **Clone o repositório** (se ainda não o fez):
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+    ```bash
+    git clone <URL_DO_SEU_REPOSITORIO>
+    cd SphereCourse
+    ```
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+2.  **Instale as dependências:**
+    Navegue até o diretório raiz do projeto e execute o comando para instalar todas as dependências necessárias:
+    ```bash
+    npm install
+    ```
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-# CourseSphere
+### Executando o Projeto
+
+O projeto consiste em duas partes principais: um servidor JSON (para simular a API) e a aplicação React.
+
+1.  **Iniciar o Servidor JSON (API Mock):**
+    Abra um novo terminal na raiz do projeto e execute o comando para subir o servidor JSON. Este servidor simula as requisições de API para o frontend.
+
+    ```bash
+    npm run server
+    ```
+
+    Este comando iniciará o servidor JSON geralmente em `http://localhost:3001`.
+
+2.  **Iniciar a Aplicação Web (Frontend):**
+    Abra _outro_ novo terminal na raiz do projeto e execute o comando para iniciar a aplicação React:
+    ```bash
+    npm run dev
+    ```
+    Este comando iniciará a aplicação de desenvolvimento, que geralmente estará disponível em `http://localhost:5173` (ou uma porta similar, dependendo da sua configuração).
+
+## Acessando a Aplicação
+
+Após seguir os passos acima, sua aplicação estará rodando no navegador.
+
+### Informações de Login
+
+Para testar a aplicação, você pode fazer login com as seguintes credenciais de exemplo:
+
+- **Email:** `giovanny@gmail.com`
+- **Senha:** `kojismo`
+
+### Como Testar as Funcionalidades
+
+Após o login, você será direcionado para o painel de controle. Para testar as funcionalidades de listagem e filtro de cursos, utilize o card de curso denominado "**Introdução à lógica computacional**". Você pode tentar filtrá-lo ou observar como ele aparece na lista lá terá um curso com ulas preenchidas pra testar s funcionalidades, Caso deseje retornar para o dashboard clique em CourseSphere ou no avatar.

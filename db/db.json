@@ -3,7 +3,7 @@
     {
       "id": "cc108551-4aab-409c-8067-ffa271ab08f0",
       "name": "Giovanny Lira de Araújo",
-      "email": "giovannyaraujo29@gmail.com",
+      "email": "giovanny@gmail.com",
       "password": "kojismo"
     },
     {
@@ -125,7 +125,6 @@
       "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0",
       "instructors": [
         "cc108551-4aab-409c-8067-ffa271ab08f0",
-        "9e8d30c0-9900-45d3-8abc-f443486bc8c1",
         "0e3a5190-23ff-4cfa-82c4-6d2f6616e9e9",
         "fa8a05bb-599f-4389-a1fd-fdc6b8876b59",
         "88ebe190-faa8-4fe5-8f38-7a32ef56b945",
@@ -537,15 +536,6 @@
       "title": "aula ",
       "status": "published",
       "publish_date": "2000-10-22",
-      "video_url": "https://example.com/video3"
-    },
-    {
-      "id": "82292fd3-8904-4cbc-ac19-7dc12f89135c",
-      "course_id": "1",
-      "creator_id": "cc108551-4aab-409c-8067-ffa271ab08f0",
-      "title": "112",
-      "status": "draft",
-      "publish_date": "231312-01-23",
       "video_url": "https://example.com/video3"
     },
     {
